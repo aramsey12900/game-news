@@ -209,7 +209,7 @@
             <h3>📰 Sources</h3>
             <button class="toggle-all" onclick="toggleAll()">Toggle All</button>
             <button class="filter-btn active" data-source="eurogamernet-latest-articles-feed" onclick="toggleSource(this)">Eurogamer.net Latest Articles Feed</button>
-<button class="filter-btn active" data-source="https://wwwgematsucom/feed" onclick="toggleSource(this)">https://www.gematsu.com/feed</button>
+<button class="filter-btn active" data-source="gematsu" onclick="toggleSource(this)">Gematsu</button>
 <button class="filter-btn active" data-source="vg247-latest-articles-feed" onclick="toggleSource(this)">VG247 Latest Articles Feed</button>
 <button class="filter-btn active" data-source="nintendo-everything" onclick="toggleSource(this)">Nintendo Everything</button>
 <button class="filter-btn active" data-source="https://wwwigncom/articlesrss" onclick="toggleSource(this)">https://www.ign.com/articles.rss</button>
@@ -225,9 +225,9 @@
 <button class="filter-btn active" data-source="latest-from-gamesradar+" onclick="toggleSource(this)">Latest from GamesRadar+</button>
 <button class="filter-btn active" data-source="siliconera" onclick="toggleSource(this)">Siliconera</button>
 <button class="filter-btn active" data-source="dualshockers" onclick="toggleSource(this)">DualShockers</button>
-<button class="filter-btn active" data-source="https://wwwnintendolifecom/feeds/latest" onclick="toggleSource(this)">https://www.nintendolife.com/feeds/latest</button>
-<button class="filter-btn active" data-source="https://wwwpushsquarecom/feeds/latest" onclick="toggleSource(this)">https://www.pushsquare.com/feeds/latest</button>
-<button class="filter-btn active" data-source="https://wwwpurexboxcom/feeds/latest" onclick="toggleSource(this)">https://www.purexbox.com/feeds/latest</button>
+<button class="filter-btn active" data-source="nintendo-life-|-latest-updates" onclick="toggleSource(this)">Nintendo Life | Latest Updates</button>
+<button class="filter-btn active" data-source="push-square-|-latest-updates" onclick="toggleSource(this)">Push Square | Latest Updates</button>
+<button class="filter-btn active" data-source="pure-xbox-|-latest-updates" onclick="toggleSource(this)">Pure Xbox | Latest Updates</button>
 <button class="filter-btn active" data-source="gamedeveloper" onclick="toggleSource(this)">gamedeveloper</button>
 <button class="filter-btn active" data-source="https://wwwthevergecom/games/rss/indexxml" onclick="toggleSource(this)">https://www.theverge.com/games/rss/index.xml</button>
 <button class="filter-btn active" data-source="gaming---ars-technica" onclick="toggleSource(this)">Gaming - Ars Technica</button>
@@ -261,21 +261,79 @@
 
         <div class="trending-bar">
             <span class="trending-label">🔥 Trending:</span>
-            <button class="trend-chip" data-keyword="nintendo switch" onclick="trendClick(this)">Nintendo Switch <span class="trend-count">4</span></button>
+            <button class="trend-chip" data-keyword="playstation" onclick="trendClick(this)">PlayStation <span class="trend-count">8</span></button>
+<button class="trend-chip" data-keyword="xbox" onclick="trendClick(this)">Xbox <span class="trend-count">7</span></button>
+<button class="trend-chip" data-keyword="call of duty" onclick="trendClick(this)">Call of Duty <span class="trend-count">4</span></button>
 <button class="trend-chip" data-keyword="steam" onclick="trendClick(this)">PC / Steam <span class="trend-count">4</span></button>
-<button class="trend-chip" data-keyword="call of duty" onclick="trendClick(this)">Call of Duty <span class="trend-count">3</span></button>
-<button class="trend-chip" data-keyword="halo" onclick="trendClick(this)">Halo <span class="trend-count">2</span></button>
-<button class="trend-chip" data-keyword="grand theft auto" onclick="trendClick(this)">GTA <span class="trend-count">2</span></button>
-<button class="trend-chip" data-keyword="playstation" onclick="trendClick(this)">PlayStation <span class="trend-count">2</span></button>
-<button class="trend-chip" data-keyword="zelda" onclick="trendClick(this)">Zelda <span class="trend-count">1</span></button>
-<button class="trend-chip" data-keyword="mario" onclick="trendClick(this)">Mario <span class="trend-count">1</span></button>
+<button class="trend-chip" data-keyword="halo" onclick="trendClick(this)">Halo <span class="trend-count">3</span></button>
+<button class="trend-chip" data-keyword="grand theft auto" onclick="trendClick(this)">GTA <span class="trend-count">3</span></button>
+<button class="trend-chip" data-keyword="nintendo switch" onclick="trendClick(this)">Nintendo Switch <span class="trend-count">3</span></button>
+<button class="trend-chip" data-keyword="mario" onclick="trendClick(this)">Mario <span class="trend-count">2</span></button>
 
         </div>
 
         <div id="articles">
             
+    <div class="news" data-source="nintendo-everything" data-ts="1786763206" data-url="https://nintendoeverything.com/brand-new-kingdom-hearts-4-trailer-released-confirmed-for-late-2027-anime-series-announced/">
+        <img src="https://nintendoeverything.com/wp-content/uploads/Kingdom-Hearts-4-2027-anime-series-150x84.png" alt="" class="card-img" onclick="openLightbox(0)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://nintendoeverything.com/brand-new-kingdom-hearts-4-trailer-released-confirmed-for-late-2027-anime-series-announced/" target="_blank">Brand new Kingdom Hearts 4 trailer released, confirmed for late 2027, anime series announced</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Two major Kingdom Hearts announcements were just made with Kingdom Hearts 4 confirmed for late 2027 and a new anime series on the way.
+The post Brand new Kingdom Hearts 4 trailer released, confirmed f...</div>
+            <div class="summary full" style="display:none">Two major Kingdom Hearts announcements were just made with Kingdom Hearts 4 confirmed for late 2027 and a new anime series on the way.
+The post Brand new Kingdom Hearts 4 trailer released, confirmed for late 2027, anime series announced appeared first on Nintendo Everything.</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 15, 2026 · 03:06</span>
+                <span class="source">📰 Nintendo Everything</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://nintendoeverything.com/brand-new-kingdom-hearts-4-trailer-released-confirmed-for-late-2027-anime-series-announced/" data-title="Brand new Kingdom Hearts 4 trailer released, confirmed for late 2027, anime series announced" data-source="Nintendo Everything" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="kotaku" data-ts="1786762991" data-url="https://kotaku.com/kingdom-hearts-the-series-disney-d23-announcement-plus-2000724564">
+        <img src="https://kotaku.com/app/uploads/2025/04/095926224b17dcad15577c2722a20272-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(1)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://kotaku.com/kingdom-hearts-the-series-disney-d23-announcement-plus-2000724564" target="_blank">Kingdom Hearts IV Gets 2027 Release Window And That’s Not All</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">The announcement comes from this year's D23 showcase...</div>
+            <div class="summary full" style="display:none">The announcement comes from this year's D23 showcase</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 15, 2026 · 03:03</span>
+                <span class="source">📰 Kotaku</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://kotaku.com/kingdom-hearts-the-series-disney-d23-announcement-plus-2000724564" data-title="Kingdom Hearts IV Gets 2027 Release Window And That’s Not All" data-source="Kotaku" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="gamerant" data-ts="1786761879" data-url="https://gamerant.com/genshin-impact-remnant-incense-guide-fellfrost-peak-precious-luxurious-chest-locations/">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/remnant-incense-guide-fellfrost-peak-shadow-realm-treasure-vault-at-fellfrost-peak.jpg" alt="" class="card-img" onclick="openLightbox(2)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://gamerant.com/genshin-impact-remnant-incense-guide-fellfrost-peak-precious-luxurious-chest-locations/" target="_blank">Precious & Luxurious Chest Locations In Fellfrost Peak & Volkodlak Tundra (Genshin Impact)</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Open Precious and Luxurious chests in Fellfrost Peak and Volkodlak Tundra for a chance to get Remnant Incense Guide-Fellfrost Peak in Genshin Impact....</div>
+            <div class="summary full" style="display:none">Open Precious and Luxurious chests in Fellfrost Peak and Volkodlak Tundra for a chance to get Remnant Incense Guide-Fellfrost Peak in Genshin Impact.</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 15, 2026 · 02:44</span>
+                <span class="source">📰 GameRant</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://gamerant.com/genshin-impact-remnant-incense-guide-fellfrost-peak-precious-luxurious-chest-locations/" data-title="Precious & Luxurious Chest Locations In Fellfrost Peak & Volkodlak Tundra (Genshin Impact)" data-source="GameRant" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="nintendo-life-|-latest-updates" data-ts="1786761000" data-url="https://www.nintendolife.com/news/2026/08/the-simpsons-hit-and-run-could-be-making-a-return-in-some-form">
+        <img src="https://images.nintendolife.com/5e8013af479e7/small.jpg" alt="" class="card-img" onclick="openLightbox(3)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.nintendolife.com/news/2026/08/the-simpsons-hit-and-run-could-be-making-a-return-in-some-form" target="_blank">The Simpsons Hit & Run Could Be Making A Return "In Some Form"</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">According to the show's creator, Matt Groening.Fans of The Simpsons have been calling for the revival of the GTA-like release The Simpsons Hit &amp; Run for many years now.The co-showrunner previously...</div>
+            <div class="summary full" style="display:none">According to the show's creator, Matt Groening.Fans of The Simpsons have been calling for the revival of the GTA-like release The Simpsons Hit &amp; Run for many years now.The co-showrunner previously said a lot of &quot;corporate octopus&quot; stand in the way, but it looks like something might finally be happening. At a D23 panel this week, creator Matt Groening may have revealed a big announcement ahead of schedule.Read the full article on nintendolife.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 15, 2026 · 02:30</span>
+                <span class="source">📰 Nintendo Life | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.nintendolife.com/news/2026/08/the-simpsons-hit-and-run-could-be-making-a-return-in-some-form" data-title="The Simpsons Hit & Run Could Be Making A Return "In Some Form"" data-source="Nintendo Life | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="gamerant" data-ts="1786759223" data-url="https://gamerant.com/marvel-stars-cut-from-mcu-movies/">
-        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/08/rosario-dawson-spider-man-brand-new-day-deleted-scene.jpg" alt="" class="card-img" onclick="openLightbox(0)" onerror="this.style.display='none'">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/08/rosario-dawson-spider-man-brand-new-day-deleted-scene.jpg" alt="" class="card-img" onclick="openLightbox(4)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gamerant.com/marvel-stars-cut-from-mcu-movies/" target="_blank">12 Major Stars Who Were Cut From MCU Movies</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">The MCU has such a long list of A-listers that the superhero franchise can occasionally afford to boot some big names....</div>
@@ -289,7 +347,7 @@
         </div>
     </div>
     <div class="news" data-source="polygoncom" data-ts="1786758944" data-url="https://www.polygon.com/d23-2026-marvel-trailers-star-wars-frozen-pixar-kingdom-hearts/">
-        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/d23_poly2.jpg" alt="" class="card-img" onclick="openLightbox(1)" onerror="this.style.display='none'">
+        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/d23_poly2.jpg" alt="" class="card-img" onclick="openLightbox(5)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.polygon.com/d23-2026-marvel-trailers-star-wars-frozen-pixar-kingdom-hearts/" target="_blank">Disney's D23 2026: All the trailers, news, and reveals in one place</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">New footage from Marvel's Avengers: Doomsday, Star Wars: Starfighter, Frozen 3 and more....</div>
@@ -303,7 +361,7 @@
         </div>
     </div>
     <div class="news" data-source="nintendo-everything" data-ts="1786758601" data-url="https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-that-support-gameshare/">
-        <img src="https://nintendoeverything.com/wp-content/uploads/Nintendo-Switch-list-all-GameShare-games-150x83.jpg" alt="" class="card-img" onclick="openLightbox(2)" onerror="this.style.display='none'">
+        <img src="https://nintendoeverything.com/wp-content/uploads/Nintendo-Switch-list-all-GameShare-games-150x83.jpg" alt="" class="card-img" onclick="openLightbox(6)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://nintendoeverything.com/list-of-all-nintendo-switch-2-games-that-support-gameshare/" target="_blank">List of all Nintendo Switch 2 games that support GameShare</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">With GameShare becoming an important part of Nintendo Switch 2, we&#8217;ve put together a complete list of games that support the feature. We&#8217;ll be updating this post over time as well. GameSha...</div>
@@ -318,7 +376,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="gamerant" data-ts="1786757413" data-url="https://gamerant.com/one-piece-3-strongest-new-gen-pirates/">
-        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/strongest-new-generation-pirates-in-one-piece.jpg" alt="" class="card-img" onclick="openLightbox(3)" onerror="this.style.display='none'">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/strongest-new-generation-pirates-in-one-piece.jpg" alt="" class="card-img" onclick="openLightbox(7)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gamerant.com/one-piece-3-strongest-new-gen-pirates/" target="_blank">One Piece Officially Unveils The 3 Strongest New Gen Pirates</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">One Piece has finally set up the three most powerful next-gen pirates to lead the era in the Elbaf arc....</div>
@@ -332,7 +390,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="gamerant" data-ts="1786755986" data-url="https://gamerant.com/genshin-impact-ever-beneath-the-waves-quest-bring-wooden-cabin-shore/">
-        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/genshin-impact-ever-beneath-the-waves-quest-how-to-bring-the-wooden-cabin-to-shore.jpg" alt="" class="card-img" onclick="openLightbox(4)" onerror="this.style.display='none'">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/genshin-impact-ever-beneath-the-waves-quest-how-to-bring-the-wooden-cabin-to-shore.jpg" alt="" class="card-img" onclick="openLightbox(8)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gamerant.com/genshin-impact-ever-beneath-the-waves-quest-bring-wooden-cabin-shore/" target="_blank">Bring The Wooden Cabin To Shore Guide In Ever Beneath the Waves Quest (Genshin Impact)</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Complete Ever Beneath the Waves quest by locating the shipwreck ice and freeing Chulkaturin in Genshin Impact....</div>
@@ -345,8 +403,22 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
             </div>
         </div>
     </div>
+    <div class="news" data-source="nintendo-life-|-latest-updates" data-ts="1786755300" data-url="https://www.nintendolife.com/news/2026/08/switch-onlines-dk-challenge-now-offering-physical-39-card-set-reward">
+        <img src="https://images.nintendolife.com/bbd2d2ee00812/small.jpg" alt="" class="card-img" onclick="openLightbox(9)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.nintendolife.com/news/2026/08/switch-onlines-dk-challenge-now-offering-physical-39-card-set-reward" target="_blank">Switch Online's DK Challenge Now Offering Physical 39-Card Set Reward</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">A &quot;limited-time offer&quot; until 1st September.In June, Nintendo announced the new Switch Online event 'DK Challenge' where players could unlock digital challenge cards as a reward.Nintendo has now taken ...</div>
+            <div class="summary full" style="display:none">A &quot;limited-time offer&quot; until 1st September.In June, Nintendo announced the new Switch Online event 'DK Challenge' where players could unlock digital challenge cards as a reward.Nintendo has now taken this a step further, announcing Donkey Kong fans in the US can receive a physical 39-card set if they complete the &quot;entire DK Challenge&quot;. This &quot;limited-time&quot; offer is available to active Switch Online members until 1st September 2026.Read the full article on nintendolife.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 15, 2026 · 00:55</span>
+                <span class="source">📰 Nintendo Life | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.nintendolife.com/news/2026/08/switch-onlines-dk-challenge-now-offering-physical-39-card-set-reward" data-title="Switch Online's DK Challenge Now Offering Physical 39-Card Set Reward" data-source="Nintendo Life | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="gamerant" data-ts="1786754937" data-url="https://gamerant.com/big-walk-megaphone-all-locations/">
-        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/how-to-get-megaphone-big-walk.jpg" alt="" class="card-img" onclick="openLightbox(5)" onerror="this.style.display='none'">
+        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/how-to-get-megaphone-big-walk.jpg" alt="" class="card-img" onclick="openLightbox(10)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gamerant.com/big-walk-megaphone-all-locations/" target="_blank">How to Get a Megaphone in Big Walk (All Locations)</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">A megaphone in Big Walk can amplify your in-game voice, allowing your teammates to hear you from great distances, here's where to find it....</div>
@@ -359,22 +431,8 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
             </div>
         </div>
     </div>
-    <div class="news" data-source="gamerant" data-ts="1786753813" data-url="https://gamerant.com/isekai-big-3-japan-anime-return/">
-        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/japan-welcomes-big-3-isekai-anime.jpeg" alt="" class="card-img" onclick="openLightbox(6)" onerror="this.style.display='none'">
-        <div class="news-body">
-            <div class="title"><a href="https://gamerant.com/isekai-big-3-japan-anime-return/" target="_blank">Japan Officially Welcomes The Big 3 Isekai Anime</a><span class="new-badge" style="display:none">NEW</span></div>
-            <div class="summary preview">Isekai is making a massive comeback with three sensational anime series airing together until September...</div>
-            <div class="summary full" style="display:none">Isekai is making a massive comeback with three sensational anime series airing together until September</div>
-            <div class="meta">
-                <span class="date">🕒 Aug 15, 2026 · 00:30</span>
-                <span class="source">📰 GameRant</span>
-                <button class="bookmark-btn" title="Save for later" data-url="https://gamerant.com/isekai-big-3-japan-anime-return/" data-title="Japan Officially Welcomes The Big 3 Isekai Anime" data-source="GameRant" onclick="toggleBookmark(this)">🔖</button>
-                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
-            </div>
-        </div>
-    </div>
     <div class="news" data-source="dualshockers" data-ts="1786753534" data-url="https://www.dualshockers.com/the-simpsons-hit-and-run-game-announcement-matt-groening/">
-        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/simpsons-1.jpg" alt="" class="card-img" onclick="openLightbox(7)" onerror="this.style.display='none'">
+        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/simpsons-1.jpg" alt="" class="card-img" onclick="openLightbox(11)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.dualshockers.com/the-simpsons-hit-and-run-game-announcement-matt-groening/" target="_blank">The Best Simpsons Game May Be Returning, if You Believe Matt Groening</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">D23 is already providing some excitement, Simpsons-style....</div>
@@ -388,7 +446,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="latest-from-gamesradar+" data-ts="1786752651" data-url="https://www.gamesradar.com/games/open-world/the-simpsons-hit-and-run-is-coming-back-in-some-form-says-matt-groening-but-it-looks-like-he-wasnt-supposed-to/">
-        <img src="https://cdn.mos.cms.futurecdn.net/2aY5xjJpmDEEYqWzPiuikd-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(8)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/2aY5xjJpmDEEYqWzPiuikd-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(12)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamesradar.com/games/open-world/the-simpsons-hit-and-run-is-coming-back-in-some-form-says-matt-groening-but-it-looks-like-he-wasnt-supposed-to/" target="_blank">The Simpsons: Hit & Run "is coming back in some form," says Matt Groening, but it looks like he wasn't supposed to</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">&quot;Or not&quot;...</div>
@@ -402,7 +460,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="dualshockers" data-ts="1786749911" data-url="https://www.dualshockers.com/the-lord-of-the-rings-war-in-the-north-legacy-edition-review/">
-        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/bf958c5133b688b7309070eccf673d76cc9338111f4079af.avif" alt="" class="card-img" onclick="openLightbox(9)" onerror="this.style.display='none'">
+        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/bf958c5133b688b7309070eccf673d76cc9338111f4079af.avif" alt="" class="card-img" onclick="openLightbox(13)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.dualshockers.com/the-lord-of-the-rings-war-in-the-north-legacy-edition-review/" target="_blank">The Lord of the Rings: War in the North - Legacy Edition Review: An Exciting Remaster of a Fan-Favorite LOTR Game</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Aspyr has made good on numerous fan requests over the years, finally giving War in the North its flowers....</div>
@@ -416,7 +474,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="pcgamer-latest" data-ts="1786749071" data-url="https://www.pcgamer.com/games/grand-theft-auto/before-grand-theft-auto-online-gta-4s-multiplayer-added-glorious-chaos-to-the-open-world-sandbox/">
-        <img src="https://cdn.mos.cms.futurecdn.net/VHsCh9gyFNLCGkCCevaFXT-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(10)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/VHsCh9gyFNLCGkCCevaFXT-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(14)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.pcgamer.com/games/grand-theft-auto/before-grand-theft-auto-online-gta-4s-multiplayer-added-glorious-chaos-to-the-open-world-sandbox/" target="_blank">Before Grand Theft Auto Online, GTA 4's multiplayer added 'glorious chaos' to the open world sandbox</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Liberty City, Liberty City: so big they reviewed it twice. This time: multiplayer....</div>
@@ -430,7 +488,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="latest-from-gamesradar+" data-ts="1786747740" data-url="https://www.gamesradar.com/entertainment/dc-tv-shows/lanterns-creator-says-realism-was-totally-the-goal-for-the-gritty-new-superhero-drama-because-theyre-trying-to-tell-a-real-story/">
-        <img src="https://cdn.mos.cms.futurecdn.net/kexAqx6NbsD9h5HW7LMMun-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(11)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/kexAqx6NbsD9h5HW7LMMun-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(15)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamesradar.com/entertainment/dc-tv-shows/lanterns-creator-says-realism-was-totally-the-goal-for-the-gritty-new-superhero-drama-because-theyre-trying-to-tell-a-real-story/" target="_blank">Lanterns creator says realism was "totally the goal" for the gritty new superhero drama because they're "trying to tell a real story"</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Exclusive: Chris Mundy says the goal was to make a &quot;straight-up drama&quot; with Lanterns...</div>
@@ -444,7 +502,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="latest-from-gamesradar+" data-ts="1786747719" data-url="https://www.gamesradar.com/news/live/d23-2026-marvel-star-wars-live-coverage-everything-announced/">
-        <img src="https://cdn.mos.cms.futurecdn.net/evkSfbeNLAwyb4KGHvCUJX-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(12)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/evkSfbeNLAwyb4KGHvCUJX-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(16)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamesradar.com/news/live/d23-2026-marvel-star-wars-live-coverage-everything-announced/" target="_blank">D23 2026 live coverage –All the Marvel and Star Wars announcements from the Disney Entertainment Showcase as it happens</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Follow along for all the announcements and news from the Disney Entertainment Showcase at D23 2026...</div>
@@ -458,7 +516,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="dualshockers" data-ts="1786747651" data-url="https://www.dualshockers.com/madden-nfl-27-review/">
-        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/madden-nfl-27-review.jpg" alt="" class="card-img" onclick="openLightbox(13)" onerror="this.style.display='none'">
+        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/madden-nfl-27-review.jpg" alt="" class="card-img" onclick="openLightbox(17)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.dualshockers.com/madden-nfl-27-review/" target="_blank">Madden NFL 27 Review: One Step Forward, One Step Back</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Despite some genuine improvements, Madden still won't be worth the money for most. Here's our full review....</div>
@@ -472,7 +530,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="pcgamer-latest" data-ts="1786747513" data-url="https://www.pcgamer.com/games/rpg/disney-says-that-kingdom-hearts-is-now-a-billion-dollar-franchise/">
-        <img src="https://cdn.mos.cms.futurecdn.net/XWS8doThLS4C3Mj2u6kyaR-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(14)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/XWS8doThLS4C3Mj2u6kyaR-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(18)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.pcgamer.com/games/rpg/disney-says-that-kingdom-hearts-is-now-a-billion-dollar-franchise/" target="_blank">Disney says that Kingdom Hearts is now a 'billion dollar franchise'</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Sora can finally afford normal person shoes....</div>
@@ -486,7 +544,7 @@ The post List of all Nintendo Switch 2 games that support GameShare appeared fir
         </div>
     </div>
     <div class="news" data-source="nintendo-everything" data-ts="1786746809" data-url="https://nintendoeverything.com/kirby-and-the-forgotten-land-list-of-all-present-codes/">
-        <img src="https://nintendoeverything.com/wp-content/uploads/Kirby-and-the-Forgotten-Land-Present-Codes-150x84.jpg" alt="" class="card-img" onclick="openLightbox(15)" onerror="this.style.display='none'">
+        <img src="https://nintendoeverything.com/wp-content/uploads/Kirby-and-the-Forgotten-Land-Present-Codes-150x84.jpg" alt="" class="card-img" onclick="openLightbox(19)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://nintendoeverything.com/kirby-and-the-forgotten-land-list-of-all-present-codes/" target="_blank">Kirby and the Forgotten Land list of all Present Codes</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Kirby and the Forgotten Land just made it to Switch, and players can take advantage of several Present Codes. When registered in-game at Waddle Dee-liveries, they provide a variety of different items....</div>
@@ -501,7 +559,7 @@ The post Kirby and the Forgotten Land list of all Present Codes appeared first o
         </div>
     </div>
     <div class="news" data-source="latest-from-gamesradar+" data-ts="1786745758" data-url="https://www.gamesradar.com/entertainment/star-wars-tv-shows/ahsoka-season-2-d23-display-teases-more-clone-wars-flashbacks-and-the-return-of-morai/">
-        <img src="https://cdn.mos.cms.futurecdn.net/irKG7qMGWrhyJzfxSqeiXG-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(16)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/irKG7qMGWrhyJzfxSqeiXG-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(20)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamesradar.com/entertainment/star-wars-tv-shows/ahsoka-season-2-d23-display-teases-more-clone-wars-flashbacks-and-the-return-of-morai/" target="_blank">Ahsoka season 2 D23 display teases more Clone Wars flashbacks and the return of Morai</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Ahsoka season 2 looks to feature more Clone Wars flashbacks...</div>
@@ -515,7 +573,7 @@ The post Kirby and the Forgotten Land list of all Present Codes appeared first o
         </div>
     </div>
     <div class="news" data-source="latest-from-gamesradar+" data-ts="1786744990" data-url="https://www.gamesradar.com/games/super-mario/the-greatest-speedrun-accomplishment-of-all-time-is-in-sight-as-two-legendary-super-mario-bros-runners-compete-for-a-time-that-once-seemed-impossible/">
-        <img src="https://cdn.mos.cms.futurecdn.net/jnecqN6oBJxhXQcwrJFE3m-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(17)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/jnecqN6oBJxhXQcwrJFE3m-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(21)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamesradar.com/games/super-mario/the-greatest-speedrun-accomplishment-of-all-time-is-in-sight-as-two-legendary-super-mario-bros-runners-compete-for-a-time-that-once-seemed-impossible/" target="_blank">The "greatest speedrun accomplishment of all time" is in sight as two legendary Super Mario Bros runners compete for a time that once seemed impossible</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">&quot;It is completely inevitable at this point&quot;...</div>
@@ -529,7 +587,7 @@ The post Kirby and the Forgotten Land list of all Present Codes appeared first o
         </div>
     </div>
     <div class="news" data-source="polygoncom" data-ts="1786744812" data-url="https://www.polygon.com/best-games-like-animal-crossing/">
-        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/games-like-animal-crossing.jpg" alt="" class="card-img" onclick="openLightbox(18)" onerror="this.style.display='none'">
+        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/games-like-animal-crossing.jpg" alt="" class="card-img" onclick="openLightbox(22)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.polygon.com/best-games-like-animal-crossing/" target="_blank">The 7 Most Perfect Cozy Games Like Animal Crossing</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">The best games like Animal Crossing set you loose in a cozy world full where laid-back routines take center stage and your imagination matters most...</div>
@@ -543,7 +601,7 @@ The post Kirby and the Forgotten Land list of all Present Codes appeared first o
         </div>
     </div>
     <div class="news" data-source="pcgamer-latest" data-ts="1786744051" data-url="https://www.pcgamer.com/games/the-elder-scrolls/modding-the-khajiit-lands-into-oblivion-is-still-the-cats-meow/">
-        <img src="https://cdn.mos.cms.futurecdn.net/xto5MwozJtZMd7JE4Dv2uS-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(19)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/xto5MwozJtZMd7JE4Dv2uS-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(23)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.pcgamer.com/games/the-elder-scrolls/modding-the-khajiit-lands-into-oblivion-is-still-the-cats-meow/" target="_blank">Modding the Khajiit lands into Oblivion is still the cat's meow</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Elsweyr the Deserts of Anequina stands the test of time....</div>
@@ -557,7 +615,7 @@ The post Kirby and the Forgotten Land list of all Present Codes appeared first o
         </div>
     </div>
     <div class="news" data-source="game-informer" data-ts="1786743000" data-url="https://gameinformer.com/opinion/2026/08/14/the-video-games-and-more-you-should-play-this-weekend-august-14-2026">
-        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/7a137fb8/duskfade2.jpg.webp" alt="" class="card-img" onclick="openLightbox(20)" onerror="this.style.display='none'">
+        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/7a137fb8/duskfade2.jpg.webp" alt="" class="card-img" onclick="openLightbox(24)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gameinformer.com/opinion/2026/08/14/the-video-games-and-more-you-should-play-this-weekend-august-14-2026" target="_blank">The Video Games And More You Should Play This Weekend – August 14, 2026</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">
@@ -714,7 +772,7 @@ You tame magical elemental creatures and set out to save your town while gradual
         </div>
     </div>
     <div class="news" data-source="pcgamer-latest" data-ts="1786742972" data-url="https://www.pcgamer.com/games/call-of-duty/heres-a-first-for-call-of-duty-the-modern-warfare-4-beta-will-have-a-campaign-mission-and-warzone-stuff/">
-        <img src="https://cdn.mos.cms.futurecdn.net/Mfm9mvTkJtZyWkoMKJxXtX-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(21)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/Mfm9mvTkJtZyWkoMKJxXtX-1280-80.jpg" alt="" class="card-img" onclick="openLightbox(25)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.pcgamer.com/games/call-of-duty/heres-a-first-for-call-of-duty-the-modern-warfare-4-beta-will-have-a-campaign-mission-and-warzone-stuff/" target="_blank">Here's a first for Call of Duty: The Modern Warfare 4 beta will have a campaign mission and Warzone stuff</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">A double-stuffed beta....</div>
@@ -728,7 +786,7 @@ You tame magical elemental creatures and set out to save your town while gradual
         </div>
     </div>
     <div class="news" data-source="pcgamer-latest" data-ts="1786742235" data-url="https://www.pcgamer.com/games/world-of-warcraft/wows-haunted-players-report-that-their-disconnected-friends-characters-are-starting-to-play-the-game-on-their-own/">
-        <img src="https://cdn.mos.cms.futurecdn.net/NMkcWYnUiW6Fr8h3UReQXR-1280-80.png" alt="" class="card-img" onclick="openLightbox(22)" onerror="this.style.display='none'">
+        <img src="https://cdn.mos.cms.futurecdn.net/NMkcWYnUiW6Fr8h3UReQXR-1280-80.png" alt="" class="card-img" onclick="openLightbox(26)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.pcgamer.com/games/world-of-warcraft/wows-haunted-players-report-that-their-disconnected-friends-characters-are-starting-to-play-the-game-on-their-own/" target="_blank">WoW's haunted: Players report that their disconnected friends' characters are starting to play the game on their own</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Who's playing when the player isn't?...</div>
@@ -742,7 +800,7 @@ You tame magical elemental creatures and set out to save your town while gradual
         </div>
     </div>
     <div class="news" data-source="polygoncom" data-ts="1786742225" data-url="https://www.polygon.com/transport-fever-3-trailer-preview/">
-        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/ss_27e5d2583f84da53f665674c47cbe6e72a9d6ecb-1920x1080.jpg" alt="" class="card-img" onclick="openLightbox(23)" onerror="this.style.display='none'">
+        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/ss_27e5d2583f84da53f665674c47cbe6e72a9d6ecb-1920x1080.jpg" alt="" class="card-img" onclick="openLightbox(27)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.polygon.com/transport-fever-3-trailer-preview/" target="_blank">Cities: Skylines new replacement is about to become the best strategy game in years</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Transport Fever 3, the latest simulation game from Urban Games, looks like it has all the quality-of-life improvements I want from Cities: Skylines...</div>
@@ -756,7 +814,7 @@ You tame magical elemental creatures and set out to save your town while gradual
         </div>
     </div>
     <div class="news" data-source="nintendo-everything" data-ts="1786742024" data-url="https://nintendoeverything.com/disney-dreamlight-valley-reveals-the-keepsake-sea-expansion-hannah-montana-lizzie-mcguire-collection-more/">
-        <img src="https://nintendoeverything.com/wp-content/uploads/Disney-Dreamlight-Valley-Hannah-Montana-Lizzie-McGuire-collection-150x84.png" alt="" class="card-img" onclick="openLightbox(24)" onerror="this.style.display='none'">
+        <img src="https://nintendoeverything.com/wp-content/uploads/Disney-Dreamlight-Valley-Hannah-Montana-Lizzie-McGuire-collection-150x84.png" alt="" class="card-img" onclick="openLightbox(28)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://nintendoeverything.com/disney-dreamlight-valley-reveals-the-keepsake-sea-expansion-hannah-montana-lizzie-mcguire-collection-more/" target="_blank">Disney Dreamlight Valley reveals The Keepsake Sea expansion, Hannah Montana & Lizzie McGuire collection, more</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">At D23: The Ultimate Disney Fan Event today, Disney Dreamlight Valley revealed what lies ahead for the game, including The Keepsake Sea expansion, Hannah Montana &#38; Lizzie McGuire collection, and m...</div>
@@ -771,7 +829,7 @@ The post Disney Dreamlight Valley reveals The Keepsake Sea expansion, Hannah Mon
         </div>
     </div>
     <div class="news" data-source="nintendo-everything" data-ts="1786741226" data-url="https://nintendoeverything.com/tower-dominion-launch-trailer/">
-        <img src="https://nintendoeverything.com/wp-content/uploads/Tower-Dominion-trailer-150x84.jpg" alt="" class="card-img" onclick="openLightbox(25)" onerror="this.style.display='none'">
+        <img src="https://nintendoeverything.com/wp-content/uploads/Tower-Dominion-trailer-150x84.jpg" alt="" class="card-img" onclick="openLightbox(29)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://nintendoeverything.com/tower-dominion-launch-trailer/" target="_blank">Tower Dominion launch trailer – roguelike tower defense game makes it to Nintendo Switch</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Tower Dominion has received a new launch trailer to promote its Nintendo Switch release. The game was a hit on PC, and now Nintendo fans can experience the roguelike tower defense game. Everything you...</div>
@@ -786,7 +844,7 @@ The post Tower Dominion launch trailer &#8211; roguelike tower defense game make
         </div>
     </div>
     <div class="news" data-source="polygoncom" data-ts="1786741212" data-url="https://www.polygon.com/new-movies-streaming-this-weekend-netflix-august-14-16/">
-        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/mcdinvi_ec198.jpg" alt="" class="card-img" onclick="openLightbox(26)" onerror="this.style.display='none'">
+        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/mcdinvi_ec198.jpg" alt="" class="card-img" onclick="openLightbox(30)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.polygon.com/new-movies-streaming-this-weekend-netflix-august-14-16/" target="_blank">10 New Movies to Watch this Weekend on Netflix, Prime Video, and Peacock</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Minions and Monsters, Michael, and more on this week's streaming column....</div>
@@ -830,7 +888,7 @@ The post Best players for FC 26 Class on Grass Evolution appeared first on Destr
         </div>
     </div>
     <div class="news" data-source="polygoncom" data-ts="1786740514" data-url="https://www.polygon.com/legend-of-zelda-3ds-minish-cap-link-to-the-past-mario-kart-fan-port-pc/">
-        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23224469/minish_cap.jpg" alt="" class="card-img" onclick="openLightbox(29)" onerror="this.style.display='none'">
+        <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23224469/minish_cap.jpg" alt="" class="card-img" onclick="openLightbox(33)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.polygon.com/legend-of-zelda-3ds-minish-cap-link-to-the-past-mario-kart-fan-port-pc/" target="_blank">Beloved Legend of Zelda Games Get New Enhanced 3DS Ports</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">These new versions of classic Zelda games like Minish Cap and A Link to the Past have additional bells and whistles and better performance...</div>
@@ -844,7 +902,7 @@ The post Best players for FC 26 Class on Grass Evolution appeared first on Destr
         </div>
     </div>
     <div class="news" data-source="kotaku" data-ts="1786739959" data-url="https://kotaku.com/activision-really-wants-you-to-know-call-of-duty-modern-warfare-4s-campaign-isnt-a-horrible-mess-like-blops7-2000724549">
-        <img src="https://kotaku.com/app/uploads/2026/05/codmw4K_0001_MW4_MP_004_BRANDED-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(30)" onerror="this.style.display='none'">
+        <img src="https://kotaku.com/app/uploads/2026/05/codmw4K_0001_MW4_MP_004_BRANDED-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(34)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://kotaku.com/activision-really-wants-you-to-know-call-of-duty-modern-warfare-4s-campaign-isnt-a-horrible-mess-like-blops7-2000724549" target="_blank">Activision Really Wants You To Know Call Of Duty: Modern Warfare 4′s Campaign Isn’t A Horrible Mess Like BLOPS7</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">For the first time ever a Call of Duty beta will include access to a singleplayer campaign mission...</div>
@@ -858,7 +916,7 @@ The post Best players for FC 26 Class on Grass Evolution appeared first on Destr
         </div>
     </div>
     <div class="news" data-source="dualshockers" data-ts="1786739734" data-url="https://www.dualshockers.com/sony-pitches-stressed-out-bear-as-its-own-hello-kitty/">
-        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/nemu-news.jpg" alt="" class="card-img" onclick="openLightbox(31)" onerror="this.style.display='none'">
+        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/nemu-news.jpg" alt="" class="card-img" onclick="openLightbox(35)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.dualshockers.com/sony-pitches-stressed-out-bear-as-its-own-hello-kitty/" target="_blank">Sony Pitches Stressed Out Bear as Its Own Hello Kitty</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Sleep-deprived, anxious, and relatable: Sony is trying to create its own Hello Kitty....</div>
@@ -872,7 +930,7 @@ The post Best players for FC 26 Class on Grass Evolution appeared first on Destr
         </div>
     </div>
     <div class="news" data-source="game-informer" data-ts="1786738980" data-url="https://gameinformer.com/review/madden-nfl-27/third-and-long">
-        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/eb5eea8f/m27_reveal_fl_cinematic_ontherun.jpg.webp" alt="" class="card-img" onclick="openLightbox(32)" onerror="this.style.display='none'">
+        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/eb5eea8f/m27_reveal_fl_cinematic_ontherun.jpg.webp" alt="" class="card-img" onclick="openLightbox(36)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gameinformer.com/review/madden-nfl-27/third-and-long" target="_blank">Madden NFL 27 Review - Third And Long</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">
@@ -1000,7 +1058,7 @@ The post Disney touts &#8216;core pillar&#8217; games like Kingdom Hearts and Ma
         </div>
     </div>
     <div class="news" data-source="kotaku" data-ts="1786738553" data-url="https://kotaku.com/best-video-games-2002-gta-kingdom-hearts-pokemon-2000724528">
-        <img src="https://kotaku.com/app/uploads/2026/08/warpweek2002-best-12-games-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(34)" onerror="this.style.display='none'">
+        <img src="https://kotaku.com/app/uploads/2026/08/warpweek2002-best-12-games-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(38)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://kotaku.com/best-video-games-2002-gta-kingdom-hearts-pokemon-2000724528" target="_blank">The 12 Best Video Games Of 2002</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">As we wrap Warp Week, we look back at the very best games of 2002...</div>
@@ -1028,7 +1086,7 @@ The post Disney touts &#8216;core pillar&#8217; games like Kingdom Hearts and Ma
         </div>
     </div>
     <div class="news" data-source="kotaku" data-ts="1786737196" data-url="https://kotaku.com/monkey-island-creators-next-game-is-funded-by-a-rich-guy-because-he-was-tired-of-bad-publisher-deals-2000724533">
-        <img src="https://kotaku.com/app/uploads/2026/08/thimbleweed-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(36)" onerror="this.style.display='none'">
+        <img src="https://kotaku.com/app/uploads/2026/08/thimbleweed-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(40)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://kotaku.com/monkey-island-creators-next-game-is-funded-by-a-rich-guy-because-he-was-tired-of-bad-publisher-deals-2000724533" target="_blank">Monkey Island Creator’s Next Game Is Funded By A Rich Guy Because He Was Tired Of Bad Publisher Deals</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Thimbleweed Park 2 is being made thanks to one very rich fan of point-and-click adventure games...</div>
@@ -1074,7 +1132,7 @@ The post The world&#8217;s most technical shooter is back from the dead, and it 
         </div>
     </div>
     <div class="news" data-source="kotaku" data-ts="1786736269" data-url="https://kotaku.com/overwatch-roadhog-venture-season-4-banter-ship-relationship-2000724531">
-        <img src="https://kotaku.com/app/uploads/2023/01/f838ffd9ad30b9ff65006420a015fea2-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(39)" onerror="this.style.display='none'">
+        <img src="https://kotaku.com/app/uploads/2023/01/f838ffd9ad30b9ff65006420a015fea2-1280x720.jpg" alt="" class="card-img" onclick="openLightbox(43)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://kotaku.com/overwatch-roadhog-venture-season-4-banter-ship-relationship-2000724531" target="_blank">A Surprising Overwatch Hero Wants Roadhog’s Whole Hog</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">‘Do you think love can bloom, even on the payload?’...</div>
@@ -1088,7 +1146,7 @@ The post The world&#8217;s most technical shooter is back from the dead, and it 
         </div>
     </div>
     <div class="news" data-source="gamespot---all-content" data-ts="1786736018" data-url="https://www.gamespot.com/articles/rideshare-stimulator-outlines-ai-usage-after-contentious-exchange-with-ex-writer/">
-        <img src="https://www.gamespot.com/wp-content/uploads/2026/08/Rideshare-Stimulator.jpg?w=300" alt="" class="card-img" onclick="openLightbox(40)" onerror="this.style.display='none'">
+        <img src="https://www.gamespot.com/wp-content/uploads/2026/08/Rideshare-Stimulator.jpg?w=300" alt="" class="card-img" onclick="openLightbox(44)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamespot.com/articles/rideshare-stimulator-outlines-ai-usage-after-contentious-exchange-with-ex-writer/" target="_blank">Rideshare Stimulator Outlines AI Usage After Contentious Exchange With Ex-Writer</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">After Saber Interactive unveiled its upcoming title Rideshare Stimulater, former lead writer Stella Sacco came forward and said that she had been replaced by ChatGPT during development. Saber CEO Matt...</div>
@@ -1140,7 +1198,7 @@ Rideshare Stimulator will be released on PC, PlayStation 5, and Xbox Series X|S.
         </div>
     </div>
     <div class="news" data-source="game-informer" data-ts="1786735714" data-url="https://gameinformer.com/video-podcast/2026/08/14/fire-emblem-fortunes-weave-is-massive-the-game-informer-show">
-        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/b07ea296/780_Lead.png.webp" alt="" class="card-img" onclick="openLightbox(41)" onerror="this.style.display='none'">
+        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/b07ea296/780_Lead.png.webp" alt="" class="card-img" onclick="openLightbox(45)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gameinformer.com/video-podcast/2026/08/14/fire-emblem-fortunes-weave-is-massive-the-game-informer-show" target="_blank">Fire Emblem: Fortune's Weave Is Massive | TGIS</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">
@@ -1160,7 +1218,7 @@ Rideshare Stimulator will be released on PC, PlayStation 5, and Xbox Series X|S.
         </div>
     </div>
     <div class="news" data-source="wccftech" data-ts="1786734674" data-url="https://wccftech.com/as-nvidia-adds-100-dark-fiber-pairs-some-ai-hyperscalers-are-quietly-blocking-fiber-off-ramps-to-rural-towns-suffocating-a-key-benefit/">
-        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/AI-Hyperscaler-Fiber-Optic-Network-1-1456x818.jpg" alt="" class="card-img" onclick="openLightbox(42)" onerror="this.style.display='none'">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/AI-Hyperscaler-Fiber-Optic-Network-1-1456x818.jpg" alt="" class="card-img" onclick="openLightbox(46)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://wccftech.com/as-nvidia-adds-100-dark-fiber-pairs-some-ai-hyperscalers-are-quietly-blocking-fiber-off-ramps-to-rural-towns-suffocating-a-key-benefit/" target="_blank">As NVIDIA Adds 100 Dark Fiber Pairs, Some AI Hyperscalers Are Quietly Blocking Fiber Off-Ramps To Rural Towns, Suffocating A Key Benefit</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">The ongoing massive AI build out was supposed to fiberize the rural America in what was, up until now, an oft-cited salient point in favor of the said build out. Well, some hyperscalers are now appare...</div>
@@ -1169,21 +1227,6 @@ Rideshare Stimulator will be released on PC, PlayStation 5, and Xbox Series X|S.
                 <span class="date">🕒 Aug 14, 2026 · 19:11</span>
                 <span class="source">📰 Wccftech</span>
                 <button class="bookmark-btn" title="Save for later" data-url="https://wccftech.com/as-nvidia-adds-100-dark-fiber-pairs-some-ai-hyperscalers-are-quietly-blocking-fiber-off-ramps-to-rural-towns-suffocating-a-key-benefit/" data-title="As NVIDIA Adds 100 Dark Fiber Pairs, Some AI Hyperscalers Are Quietly Blocking Fiber Off-Ramps To Rural Towns, Suffocating A Key Benefit" data-source="Wccftech" onclick="toggleBookmark(this)">🔖</button>
-                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
-            </div>
-        </div>
-    </div>
-    <div class="news" data-source="nintendo-everything" data-ts="1786734002" data-url="https://nintendoeverything.com/arcade-archives-nintendo-switch-2-and-switch-sale-live-lowest-price-ever-for-ridge-racer-and-more/">
-        <img src="https://nintendoeverything.com/wp-content/uploads/Arcade-Archives-Ridge-Racer-sale-150x84.jpg" alt="" class="card-img" onclick="openLightbox(43)" onerror="this.style.display='none'">
-        <div class="news-body">
-            <div class="title"><a href="https://nintendoeverything.com/arcade-archives-nintendo-switch-2-and-switch-sale-live-lowest-price-ever-for-ridge-racer-and-more/" target="_blank">Arcade Archives Nintendo Switch 2 and Switch sale live, lowest price ever for Ridge Racer and more</a><span class="new-badge" style="display:none">NEW</span></div>
-            <div class="summary preview">A new Arcade Archives sale is here on Nintendo Switch 2 and Switch, with games at new low prices, including Ridge Racer. There&#8217;s actually a specific theme here. All of the discounts are for titl...</div>
-            <div class="summary full" style="display:none">A new Arcade Archives sale is here on Nintendo Switch 2 and Switch, with games at new low prices, including Ridge Racer. There&#8217;s actually a specific theme here. All of the discounts are for titles originally made by Namco. One of these is Libble Rabble, which was conceived by Toru Iwatani, the creator of Pac-Man. The full lineup of discounts...
-The post Arcade Archives Nintendo Switch 2 and Switch sale live, lowest price ever for Ridge Racer and more appeared first on Nintendo Everything.</div>
-            <div class="meta">
-                <span class="date">🕒 Aug 14, 2026 · 19:00</span>
-                <span class="source">📰 Nintendo Everything</span>
-                <button class="bookmark-btn" title="Save for later" data-url="https://nintendoeverything.com/arcade-archives-nintendo-switch-2-and-switch-sale-live-lowest-price-ever-for-ridge-racer-and-more/" data-title="Arcade Archives Nintendo Switch 2 and Switch sale live, lowest price ever for Ridge Racer and more" data-source="Nintendo Everything" onclick="toggleBookmark(this)">🔖</button>
                 <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
             </div>
         </div>
@@ -1202,22 +1245,8 @@ The post Arcade Archives Nintendo Switch 2 and Switch sale live, lowest price ev
             </div>
         </div>
     </div>
-    <div class="news" data-source="kotaku" data-ts="1786733386" data-url="https://kotaku.com/i-think-kingdom-hearts-is-going-to-change-the-world-2000724470">
-        <img src="https://kotaku.com/app/uploads/2026/08/image-2026-08-14T103132.328.jpg" alt="" class="card-img" onclick="openLightbox(45)" onerror="this.style.display='none'">
-        <div class="news-body">
-            <div class="title"><a href="https://kotaku.com/i-think-kingdom-hearts-is-going-to-change-the-world-2000724470" target="_blank">I Think Kingdom Hearts Is Going To Change The World</a><span class="new-badge" style="display:none">NEW</span></div>
-            <div class="summary preview">Final Fantasy's unthinkable crossover with Disney might just be the tip of the iceberg...</div>
-            <div class="summary full" style="display:none">Final Fantasy's unthinkable crossover with Disney might just be the tip of the iceberg</div>
-            <div class="meta">
-                <span class="date">🕒 Aug 14, 2026 · 18:49</span>
-                <span class="source">📰 Kotaku</span>
-                <button class="bookmark-btn" title="Save for later" data-url="https://kotaku.com/i-think-kingdom-hearts-is-going-to-change-the-world-2000724470" data-title="I Think Kingdom Hearts Is Going To Change The World" data-source="Kotaku" onclick="toggleBookmark(this)">🔖</button>
-                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
-            </div>
-        </div>
-    </div>
     <div class="news" data-source="dualshockers" data-ts="1786731975" data-url="https://www.dualshockers.com/someone-is-making-a-disney-lego-game-and-it-isnt-tt-games/">
-        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/04/the-lego-movie-videogame.jpg" alt="" class="card-img" onclick="openLightbox(46)" onerror="this.style.display='none'">
+        <img src="https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/04/the-lego-movie-videogame.jpg" alt="" class="card-img" onclick="openLightbox(48)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.dualshockers.com/someone-is-making-a-disney-lego-game-and-it-isnt-tt-games/" target="_blank">Someone Is Making a Disney LEGO Game, and It Isn't TT Games</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Supposedly, a new Disney LEGO game is in development. With TT stepping back from Disney, and Disney going all-in on games, the timing is interesting....</div>
@@ -1231,7 +1260,7 @@ The post Arcade Archives Nintendo Switch 2 and Switch sale live, lowest price ev
         </div>
     </div>
     <div class="news" data-source="gamespot---all-content" data-ts="1786731927" data-url="https://www.gamespot.com/articles/heres-a-first-look-at-cod-warzones-new-zodiac-map-for-mw4/">
-        <img src="https://www.gamespot.com/wp-content/uploads/2026/08/MW4_KB_07_BRANDED.jpg?w=300" alt="" class="card-img" onclick="openLightbox(47)" onerror="this.style.display='none'">
+        <img src="https://www.gamespot.com/wp-content/uploads/2026/08/MW4_KB_07_BRANDED.jpg?w=300" alt="" class="card-img" onclick="openLightbox(49)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamespot.com/articles/heres-a-first-look-at-cod-warzones-new-zodiac-map-for-mw4/" target="_blank">Here’s A First Look At CoD: Warzone’s New Zodiac Map For MW4</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Call of Duty players can expect a brand-new Warzone Resurgence map for Modern Warfare 4, and Infinity Ward has teased a first look at the upcoming location. Players will also be able to go hands-on wi...</div>
@@ -1272,6 +1301,20 @@ Call of Duty: Modern Warfare 4 releases on October 23 for PC, PS5, Xbox Series X
             </div>
         </div>
     </div>
+    <div class="news" data-source="pure-xbox-|-latest-updates" data-ts="1786731900" data-url="https://www.purexbox.com/news/2026/08/heres-what-the-mafia-definitive-edition-upgrade-looks-like-on-xbox-series-xs">
+        <img src="https://images.purexbox.com/3e2c791b963ff/small.jpg" alt="" class="card-img" onclick="openLightbox(50)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.purexbox.com/news/2026/08/heres-what-the-mafia-definitive-edition-upgrade-looks-like-on-xbox-series-xs" target="_blank">Here's What The Mafia: Definitive Edition Upgrade Looks Like On Xbox Series X|S</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">A first look at the long-awaited upgrade.Today's the day for the free Mafia: Definitive Edition upgrade (for digital owners of the game) on Xbox Series X and Xbox Series S, and I've personally been ea...</div>
+            <div class="summary full" style="display:none">A first look at the long-awaited upgrade.Today's the day for the free Mafia: Definitive Edition upgrade (for digital owners of the game) on Xbox Series X and Xbox Series S, and I've personally been eagerly awaiting its arrival for the past 24 hours.If you haven't managed to locate it yet, you'll want to look for something called &quot;Mafia: Definitive Edition for XBOX Series X|S&quot; on the Microsoft Store - it's a totally separate game to the original Xbox One version. As long as you own Mafia: DE in digital form already, it should be showing as a free download.Read the full article on purexbox.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 18:25</span>
+                <span class="source">📰 Pure Xbox | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.purexbox.com/news/2026/08/heres-what-the-mafia-definitive-edition-upgrade-looks-like-on-xbox-series-xs" data-title="Here's What The Mafia: Definitive Edition Upgrade Looks Like On Xbox Series X|S" data-source="Pure Xbox | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="destructoid" data-ts="1786731447" data-url="https://www.destructoid.com/best-players-for-fc-26-passing-focus-evolution/">
         
         <div class="news-body">
@@ -1289,7 +1332,7 @@ The post Best players for FC 26 Passing Focus Evolution appeared first on Destru
         </div>
     </div>
     <div class="news" data-source="game-informer" data-ts="1786730400" data-url="https://gameinformer.com/exclusive-feature/2026/08/14/onimusha-way-of-the-sword-isnt-a-horror-game-but-there-are-definitely">
-        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/07/15/49b634e4/380_onimusha21.jpg.webp" alt="" class="card-img" onclick="openLightbox(49)" onerror="this.style.display='none'">
+        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2026/07/15/49b634e4/380_onimusha21.jpg.webp" alt="" class="card-img" onclick="openLightbox(52)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gameinformer.com/exclusive-feature/2026/08/14/onimusha-way-of-the-sword-isnt-a-horror-game-but-there-are-definitely" target="_blank">Onimusha: Way Of The Sword Isn’t A Horror Game, But There Are Definitely Moments Of Horror</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">
@@ -1343,8 +1386,22 @@ Nihei says this specific stage heightens the anxiety and tension Musashi and Shi
             </div>
         </div>
     </div>
+    <div class="news" data-source="nintendo-life-|-latest-updates" data-ts="1786730400" data-url="https://www.nintendolife.com/reviews/punk-workshop-fightstick-g01-arcade-stick-for-switch-1-and-2-quite-simply-one-of-the-best">
+        <img src="https://images.nintendolife.com/156329b2fb34a/small.jpg" alt="" class="card-img" onclick="openLightbox(54)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.nintendolife.com/reviews/punk-workshop-fightstick-g01-arcade-stick-for-switch-1-and-2-quite-simply-one-of-the-best" target="_blank">Review: Punk Workshop FightStick G01 Arcade Stick For Switch 1 & 2 - Quite Simply One Of The Best</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Does it come in black?The arcade and fighting game scene is now completely dominated by a growing number of ‘leverless’ controllers, meaning the classic joystick used for movement is replaced by indiv...</div>
+            <div class="summary full" style="display:none">Does it come in black?The arcade and fighting game scene is now completely dominated by a growing number of ‘leverless’ controllers, meaning the classic joystick used for movement is replaced by individual buttons for each direction.For the uninitiated, leverless controllers might look completely bonkers, but once you get used to the layout, it’s a remarkably compelling method of control – one of those ‘if you know, you know’ kind of things. But if you’re dead-set on a more traditional arcade stick, it’s tough to get much better than Punk Workshop’s FightStick G01 Edition.Read the full article on nintendolife.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 18:00</span>
+                <span class="source">📰 Nintendo Life | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.nintendolife.com/reviews/punk-workshop-fightstick-g01-arcade-stick-for-switch-1-and-2-quite-simply-one-of-the-best" data-title="Review: Punk Workshop FightStick G01 Arcade Stick For Switch 1 & 2 - Quite Simply One Of The Best" data-source="Nintendo Life | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="rock-paper-shotgun-latest-articles-feed" data-ts="1786729276" data-url="https://www.rockpapershotgun.com/the-watcher-is-a-creepy-surveillance-thriller-with-shiny-unreal-engine-props-i-just-hope-its-not-as-talkative-as-its-trailer">
-        <img src="https://assetsio.gnwcdn.com/thewatcher.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(51)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/thewatcher.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(55)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.rockpapershotgun.com/the-watcher-is-a-creepy-surveillance-thriller-with-shiny-unreal-engine-props-i-just-hope-its-not-as-talkative-as-its-trailer" target="_blank">The Watcher is a creepy surveillance thriller with shiny Unreal Engine props - I just hope it's not as talkative as its trailer</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Some pressing personal context: I live in a very small flat with huge windows and curtains that only ever seem to cover about 80% of the view, no matter how ingeniously I yank them around. Every laun...</div>
@@ -1358,7 +1415,7 @@ Nihei says this specific stage heightens the anxiety and tension Musashi and Shi
         </div>
     </div>
     <div class="news" data-source="gamespot---all-content" data-ts="1786728058" data-url="https://www.gamespot.com/articles/halo-campaign-evolved-will-look-way-better-soon/">
-        <img src="https://www.gamespot.com/wp-content/uploads/2026/08/Halo-Campaign-Evolved-Will-Look-Better-Soon.jpg?w=300" alt="" class="card-img" onclick="openLightbox(52)" onerror="this.style.display='none'">
+        <img src="https://www.gamespot.com/wp-content/uploads/2026/08/Halo-Campaign-Evolved-Will-Look-Better-Soon.jpg?w=300" alt="" class="card-img" onclick="openLightbox(56)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamespot.com/articles/halo-campaign-evolved-will-look-way-better-soon/" target="_blank">Halo: Campaign Evolved Will Look Way Better Soon</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Halo: Campaign Evolved is set to receive its first major patch next week, one that will give players more control over the game's visuals as well as make improvements to Jackals and Sgt. Johnson.
@@ -1419,8 +1476,36 @@ Given the remake's performance, it's unclear what is coming next for the franchi
             </div>
         </div>
     </div>
+    <div class="news" data-source="pure-xbox-|-latest-updates" data-ts="1786726800" data-url="https://www.purexbox.com/features/talking-point-amid-rising-console-prices-what-would-you-do-if-your-xbox-broke-tomorrow">
+        <img src="https://images.purexbox.com/25acf4bef5252/small.jpg" alt="" class="card-img" onclick="openLightbox(58)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.purexbox.com/features/talking-point-amid-rising-console-prices-what-would-you-do-if-your-xbox-broke-tomorrow" target="_blank">Talking Point: Amid Rising Console Prices, What Would You Do If Your Xbox Broke Tomorrow?</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Buy another one? Wait for Helix? Go back to an older model?The industry is in a bit of a mess at the moment when it comes to console prices. We've already heard a lot about about the component crisis ...</div>
+            <div class="summary full" style="display:none">Buy another one? Wait for Helix? Go back to an older model?The industry is in a bit of a mess at the moment when it comes to console prices. We've already heard a lot about about the component crisis that's causing console price tags to continually rise across the board, and it was back in June that Xbox specifically announced a significant increase for both the Xbox Series X and Series S.&lt;related ids=&quot;204515&quot;&gt;Read the full article on purexbox.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 17:00</span>
+                <span class="source">📰 Pure Xbox | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.purexbox.com/features/talking-point-amid-rising-console-prices-what-would-you-do-if-your-xbox-broke-tomorrow" data-title="Talking Point: Amid Rising Console Prices, What Would You Do If Your Xbox Broke Tomorrow?" data-source="Pure Xbox | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="nintendo-life-|-latest-updates" data-ts="1786725900" data-url="https://www.nintendolife.com/news/2026/08/thimbleweed-park-2-is-being-funded-by-a-sole-wealthy-outsider">
+        <img src="https://images.nintendolife.com/36fce97a20179/small.jpg" alt="" class="card-img" onclick="openLightbox(59)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.nintendolife.com/news/2026/08/thimbleweed-park-2-is-being-funded-by-a-sole-wealthy-outsider" target="_blank">Thimbleweed Park 2 Is Being Funded By A Sole 'Wealthy Outsider'</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">&quot;This deal is a lot more fair&quot;.Thimbleweek Park 2, the upcoming sequel to the 2017 cult classic, is reportedly being funded by a sole 'wealthy outsider'.This comes from Jason Schreier at Bloomberg, wh...</div>
+            <div class="summary full" style="display:none">&quot;This deal is a lot more fair&quot;.Thimbleweek Park 2, the upcoming sequel to the 2017 cult classic, is reportedly being funded by a sole 'wealthy outsider'.This comes from Jason Schreier at Bloomberg, who interviewed creator Ron Gilbert regarding the creation of the sequel. Despite making more than $620,000 through Kickstarter for the original game, Gilbert wanted to avoid the crowdfunding site for its sequel. He also received plenty of interest from traditional publishers, but ultimately ruled this out too.Read the full article on nintendolife.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 16:45</span>
+                <span class="source">📰 Nintendo Life | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.nintendolife.com/news/2026/08/thimbleweed-park-2-is-being-funded-by-a-sole-wealthy-outsider" data-title="Thimbleweed Park 2 Is Being Funded By A Sole 'Wealthy Outsider'" data-source="Nintendo Life | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="wccftech" data-ts="1786725750" data-url="https://wccftech.com/sandisk-takes-finance-bros-for-a-ride-cherry-picks-bf16-quantization-and-outdated-hbm-specs-while-completely-glossing-over-hbfs-write-endurance-issues/">
-        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/SanDisk-HBF-Cover-Image-1456x757.jpg" alt="" class="card-img" onclick="openLightbox(54)" onerror="this.style.display='none'">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/SanDisk-HBF-Cover-Image-1456x757.jpg" alt="" class="card-img" onclick="openLightbox(60)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://wccftech.com/sandisk-takes-finance-bros-for-a-ride-cherry-picks-bf16-quantization-and-outdated-hbm-specs-while-completely-glossing-over-hbfs-write-endurance-issues/" target="_blank">SanDisk Takes ‘Finance Bros’ For A Ride: Cherry-Picks BF16 Quantization And Outdated HBM Specs, While Completely Glossing Over HBF’s Write Endurance Issues</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">SanDisk held an Investor Day presentation earlier this week. Ordinarily, that would be considered par for the course. However, then some of the presentation slides - laden with supposed inaccuracies a...</div>
@@ -1434,7 +1519,7 @@ Given the remake's performance, it's unclear what is coming next for the franchi
         </div>
     </div>
     <div class="news" data-source="gaming---ars-technica" data-ts="1786723897" data-url="https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games/">
-        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/08/3408519540_a597fef749_k-500x500.jpg" alt="" class="card-img" onclick="openLightbox(55)" onerror="this.style.display='none'">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/08/3408519540_a597fef749_k-500x500.jpg" alt="" class="card-img" onclick="openLightbox(61)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://arstechnica.com/gaming/2026/08/ars-live-recap-how-can-we-stop-publishers-from-killing-their-own-games/" target="_blank">Ars Live recap: How can we stop publishers from killing their own games?</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">The Stop Killing Games movement faces an uphill battle....</div>
@@ -1448,7 +1533,7 @@ Given the remake's performance, it's unclear what is coming next for the franchi
         </div>
     </div>
     <div class="news" data-source="wccftech" data-ts="1786723537" data-url="https://wccftech.com/intel-wants-to-keep-offering-raptor-lake-cpus-till-memory-prices-return-to-normal/">
-        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/Intel-Raptor-Lake-CPUs-1456x971.jpg" alt="" class="card-img" onclick="openLightbox(56)" onerror="this.style.display='none'">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/Intel-Raptor-Lake-CPUs-1456x971.jpg" alt="" class="card-img" onclick="openLightbox(62)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://wccftech.com/intel-wants-to-keep-offering-raptor-lake-cpus-till-memory-prices-return-to-normal/" target="_blank">Intel Wants To Keep Offering Raptor Lake CPUs Till Memory Prices Return To Normal</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Intel will keep on offering older Raptor Lake CPUs to allow PC builders an alternative to higher DDR5 prices. DDR5 Prices Are Not Coming Down Anytime Soon, So Intel Has Decided To Keep Its Raptor Lake...</div>
@@ -1461,8 +1546,22 @@ Given the remake's performance, it's unclear what is coming next for the franchi
             </div>
         </div>
     </div>
+    <div class="news" data-source="pure-xbox-|-latest-updates" data-ts="1786723200" data-url="https://www.purexbox.com/news/2026/08/four-new-indie-games-are-proving-highly-popular-on-xbox-right-now">
+        <img src="https://images.purexbox.com/f31734f41f24c/small.jpg" alt="" class="card-img" onclick="openLightbox(63)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.purexbox.com/news/2026/08/four-new-indie-games-are-proving-highly-popular-on-xbox-right-now" target="_blank">Four New Indie Games Are Proving Highly Popular On Xbox Right Now</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">They're all amongst the top 50 paid games on the Microsoft Store.It looks like Xbox has been updating the &quot;Top Paid&quot; section of the Microsoft Store over the past few hours, and it highlights that four...</div>
+            <div class="summary full" style="display:none">They're all amongst the top 50 paid games on the Microsoft Store.It looks like Xbox has been updating the &quot;Top Paid&quot; section of the Microsoft Store over the past few hours, and it highlights that four unlikely indie games in particular have all made their way into the top 50 list for &quot;paid&quot; downloads.The one that's doing extremely well is Dispatch, which is the Telltale-style story game about a former superhero who runs a dispatch service for a group of ex-supervillains. It's been in the top five for quite some time now, and currently sits in third place behind just College Football 27 and Madden 27. The Digital Deluxe Edition of Dispatch is also a bit further back in 61st place.Read the full article on purexbox.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 16:00</span>
+                <span class="source">📰 Pure Xbox | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.purexbox.com/news/2026/08/four-new-indie-games-are-proving-highly-popular-on-xbox-right-now" data-title="Four New Indie Games Are Proving Highly Popular On Xbox Right Now" data-source="Pure Xbox | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="wccftech" data-ts="1786722304" data-url="https://wccftech.com/snapdragon-8-elite-gen-6-pro-antutu-20-percent-faster/">
-        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/Snapdragon-8-Elite-Gen-6-Pro-5-1456x819.jpg" alt="" class="card-img" onclick="openLightbox(57)" onerror="this.style.display='none'">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/Snapdragon-8-Elite-Gen-6-Pro-5-1456x819.jpg" alt="" class="card-img" onclick="openLightbox(64)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://wccftech.com/snapdragon-8-elite-gen-6-pro-antutu-20-percent-faster/" target="_blank">Snapdragon 8 Elite Gen 6 Pro Benchmark Results In AnTuTu Show A 20% Performance Improvement Over The Fastest Android Smartphone Currently In Existence</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">One of the first AnTuTu performance results surrounding the Snapdragon 8 Elite Gen 6 Pro&#160;is here, with the score showing a little over 20 percent increase compared to the fastest Android smartpho...</div>
@@ -1476,7 +1575,7 @@ Given the remake's performance, it's unclear what is coming next for the franchi
         </div>
     </div>
     <div class="news" data-source="rock-paper-shotgun-latest-articles-feed" data-ts="1786721190" data-url="https://www.rockpapershotgun.com/rideshare-stimulator-finally-gets-its-genai-disclosure-after-much-saber-rattling-and-it-turns-out-the-game-also-uses-the-tech-for-in-game-music">
-        <img src="https://assetsio.gnwcdn.com/rideshare-stimulator_SBvvZcB.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(58)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/rideshare-stimulator_SBvvZcB.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(65)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.rockpapershotgun.com/rideshare-stimulator-finally-gets-its-genai-disclosure-after-much-saber-rattling-and-it-turns-out-the-game-also-uses-the-tech-for-in-game-music" target="_blank">Rideshare Stimulator finally gets its genAI disclosure after much Saber-rattling, and it turns out the game also uses the tech for in-game music</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Saber Interactive have belatedly updated the Steam page for Unigine's chatty gig-work game Rideshare Stimulator with a disclosure about generative AI usage, following a withering back-and-forth betwe...</div>
@@ -1491,7 +1590,7 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
         </div>
     </div>
     <div class="news" data-source="wccftech" data-ts="1786720297" data-url="https://wccftech.com/micro-center-bundles-core-ultra-5-250k-plus-with-a-motherboard-and-32-gb-ram-so-you-can-save-270/">
-        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/Core-Ultra-5-250K-Plus-motherboard-RAM-bundle-deal-1456x819.jpg" alt="" class="card-img" onclick="openLightbox(59)" onerror="this.style.display='none'">
+        <img src="https://cdn.wccftech.com/wp-content/uploads/2026/08/Core-Ultra-5-250K-Plus-motherboard-RAM-bundle-deal-1456x819.jpg" alt="" class="card-img" onclick="openLightbox(66)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://wccftech.com/micro-center-bundles-core-ultra-5-250k-plus-with-a-motherboard-and-32-gb-ram-so-you-can-save-270/" target="_blank">Micro Center Bundles Core Ultra 5 250K Plus With A Motherboard And 32 GB RAM, So You Can Save $270</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">You either pay hundreds of dollars more by purchasing these components separately, or you can save nearly $300 with this bundle. Grab the Intel Core Ultra 5 250K, GIGABYTE Motherboard, and 32 GB DDR5 ...</div>
@@ -1504,8 +1603,50 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
             </div>
         </div>
     </div>
+    <div class="news" data-source="nintendo-life-|-latest-updates" data-ts="1786719600" data-url="https://www.nintendolife.com/features/one-year-on-is-anyone-still-playing-drag-x-drive">
+        <img src="https://images.nintendolife.com/4dcba6e0ddaa2/small.jpg" alt="" class="card-img" onclick="openLightbox(67)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.nintendolife.com/features/one-year-on-is-anyone-still-playing-drag-x-drive" target="_blank">Feature: One Year On, Is Anyone Still Playing Drag x Drive?</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Drag x Thrive?Despite what some might think, Nintendo is always releasing games under new IP. It’s not all just Mario and Pokémon. In late May, they released Pictonico! on mobile, and in early August ...</div>
+            <div class="summary full" style="display:none">Drag x Thrive?Despite what some might think, Nintendo is always releasing games under new IP. It’s not all just Mario and Pokémon. In late May, they released Pictonico! on mobile, and in early August they released D-Hopper on Virtual Boy (technically an old IP that finally saw the light of day). And on 14th August 2025, Nintendo gave us Drag x Drive. Unfortunately, it wasn’t received particularly well.Nintendo’s take on the sport of wheelchair basketball (although they went out of their way to not refer to it as such, instead calling the wheelchairs ‘vehicles’) was put forward as a showcase of mouse mode, a new hardware feature of the Switch 2. Using the Joy-Con 2, players control both arms of an avatar character and simulate the feeling of being in a wheelchair - from movement to throwing a basketball and even high-fiving other players.Read the full article on nintendolife.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 15:00</span>
+                <span class="source">📰 Nintendo Life | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.nintendolife.com/features/one-year-on-is-anyone-still-playing-drag-x-drive" data-title="Feature: One Year On, Is Anyone Still Playing Drag x Drive?" data-source="Nintendo Life | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="push-square-|-latest-updates" data-ts="1786717800" data-url="https://www.pushsquare.com/news/2026/08/call-of-duty-modern-warfare-4s-ps5-beta-includes-campaign-mission-for-the-first-time">
+        <img src="https://images.pushsquare.com/ee2ef4903485e/small.jpg" alt="" class="card-img" onclick="openLightbox(68)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.pushsquare.com/news/2026/08/call-of-duty-modern-warfare-4s-ps5-beta-includes-campaign-mission-for-the-first-time" target="_blank">Call of Duty: Modern Warfare 4's PS5 Beta Includes Campaign Mission for the First Time</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Try out Entrenched level in PS5 beta.Activision has revealed its upcoming PS5 beta for Call of Duty: Modern Warfare 4 will include a single player campaign mission to try for the first time in series ...</div>
+            <div class="summary full" style="display:none">Try out Entrenched level in PS5 beta.Activision has revealed its upcoming PS5 beta for Call of Duty: Modern Warfare 4 will include a single player campaign mission to try for the first time in series history.Alongside a selection of multiplayer modes and maps, and the new Warzone Resurgence map (called Zodiac), the beta will let you sample Entrenched, a level from the campaign. You can catch a quick tease of it below:Read the full article on pushsquare.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 14:30</span>
+                <span class="source">📰 Push Square | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.pushsquare.com/news/2026/08/call-of-duty-modern-warfare-4s-ps5-beta-includes-campaign-mission-for-the-first-time" data-title="Call of Duty: Modern Warfare 4's PS5 Beta Includes Campaign Mission for the First Time" data-source="Push Square | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="pure-xbox-|-latest-updates" data-ts="1786717800" data-url="https://www.purexbox.com/news/2026/08/cancelled-first-party-xbox-title-shows-up-in-a-random-fishing-game">
+        <img src="https://images.purexbox.com/4291075c6b8e2/small.jpg" alt="" class="card-img" onclick="openLightbox(69)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.purexbox.com/news/2026/08/cancelled-first-party-xbox-title-shows-up-in-a-random-fishing-game" target="_blank">Cancelled First-Party Xbox Title Shows Up In A Random Fishing Game</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Talk about hidden Contraband.It's been just over a year since Microsoft scrapped its Xbox exclusive Contraband, teased as an open-world co-op smuggling experience from Avalanche Studios. Until now, al...</div>
+            <div class="summary full" style="display:none">Talk about hidden Contraband.It's been just over a year since Microsoft scrapped its Xbox exclusive Contraband, teased as an open-world co-op smuggling experience from Avalanche Studios. Until now, all we'd seen was its teaser trailer and a handful of leaked screenshots showing early UI. Now, in one of the most random leaks we've come across, it looks like a test world for Contraband was tucked away inside Call Of The Wild: The Angler, one of the developer's other games.&lt;related ids=&quot;193302&quot;&gt;Read the full article on purexbox.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 14:30</span>
+                <span class="source">📰 Pure Xbox | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.purexbox.com/news/2026/08/cancelled-first-party-xbox-title-shows-up-in-a-random-fishing-game" data-title="Cancelled First-Party Xbox Title Shows Up In A Random Fishing Game" data-source="Pure Xbox | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="eurogamernet-latest-articles-feed" data-ts="1786717271" data-url="https://www.eurogamer.net/special-effect-big-football-match-charity-50000">
-        <img src="https://assetsio.gnwcdn.com/specialeffect_boy_header.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(60)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/specialeffect_boy_header.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(70)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.eurogamer.net/special-effect-big-football-match-charity-50000" target="_blank">UK video game industry charity football match raises over £63,000 for physically disabled gamers</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Video game charity SpecialEffect has once again hosted its One Big Game football event, bringing  developers from all across the UK games industry together to raise money for a good cause. And with t...</div>
@@ -1519,7 +1660,7 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
         </div>
     </div>
     <div class="news" data-source="eurogamernet-latest-articles-feed" data-ts="1786717064" data-url="https://www.eurogamer.net/compulsion-games-south-of-midnight-publisher-xbox-restructuring">
-        <img src="https://assetsio.gnwcdn.com/south-of-midnight_FEBooHb.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(61)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/south-of-midnight_FEBooHb.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(71)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.eurogamer.net/compulsion-games-south-of-midnight-publisher-xbox-restructuring" target="_blank">Compulsion Games becomes publisher of South of Midnight on Steam, suggesting departure from Xbox amid major restructuring is now complete</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Developer Compulsion Games is now listed as the publisher of its beautiful, musical action adventure game South of Midnight on Steam, suggesting that its full detachment from the Xbox division is com...</div>
@@ -1533,7 +1674,7 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
         </div>
     </div>
     <div class="news" data-source="eurogamernet-latest-articles-feed" data-ts="1786713548" data-url="https://www.eurogamer.net/pokemon-pokopia-5m-sales">
-        <img src="https://assetsio.gnwcdn.com/pokopia-header.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(62)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/pokopia-header.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(72)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.eurogamer.net/pokemon-pokopia-5m-sales" target="_blank">Nintendo announces Pokémon Pokopia has sold over 5m copies, meaning that roughly one in four Switch 2 users now owns the game</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> It looks like we've got another massive Pok&eacute;mon-flavoured hit on our hands. Nintendo and The Pok&eacute;mon Company have confirmed that Pok&eacute;mon Pokopia has sold more than five million u...</div>
@@ -1546,8 +1687,64 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
             </div>
         </div>
     </div>
+    <div class="news" data-source="push-square-|-latest-updates" data-ts="1786713300" data-url="https://www.pushsquare.com/news/2026/08/mafia-remake-joins-the-old-country-on-ps5-in-full-series-collection-with-60fps-visual-upgrades">
+        <img src="https://images.pushsquare.com/1d12ef136f3a2/small.jpg" alt="" class="card-img" onclick="openLightbox(73)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.pushsquare.com/news/2026/08/mafia-remake-joins-the-old-country-on-ps5-in-full-series-collection-with-60fps-visual-upgrades" target="_blank">Mafia Remake Joins The Old Country on PS5 in Full Series Collection with 60FPS, Visual Upgrades</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Update: No free PS5 upgrade for PS Plus owners.A new bundle containing every Mafia game to date will launch tomorrow to coincide with the release of Mafia: The Old Country expansion Man of Honor.The O...</div>
+            <div class="summary full" style="display:none">Update: No free PS5 upgrade for PS Plus owners.A new bundle containing every Mafia game to date will launch tomorrow to coincide with the release of Mafia: The Old Country expansion Man of Honor.The Omertà Collection bundles together all three Definitive Editions of the original Mafia trilogy, The Old Country, and the Man of Honor DLC. Most importantly, however, the version of Mafia: Definitive Edition included is a new native PS5 edition sporting 60 frames-per-second support as well as &quot;technical improvements&quot;.Read the full article on pushsquare.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 13:15</span>
+                <span class="source">📰 Push Square | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.pushsquare.com/news/2026/08/mafia-remake-joins-the-old-country-on-ps5-in-full-series-collection-with-60fps-visual-upgrades" data-title="Mafia Remake Joins The Old Country on PS5 in Full Series Collection with 60FPS, Visual Upgrades" data-source="Push Square | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="pure-xbox-|-latest-updates" data-ts="1786713300" data-url="https://www.purexbox.com/news/2026/08/1986-amiga-classic-gets-rebuilt-with-two-new-game-modes-for-xbox-series-xs">
+        <img src="https://images.purexbox.com/260381e1bebd5/small.jpg" alt="" class="card-img" onclick="openLightbox(74)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.purexbox.com/news/2026/08/1986-amiga-classic-gets-rebuilt-with-two-new-game-modes-for-xbox-series-xs" target="_blank">1986 Amiga Classic Gets Rebuilt With Two New Game Modes For Xbox Series X|S</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">It's called Defender of the Crown: The Legend Returns.We've had a whole bunch of really interesting indie releases on Xbox this week including Wild Blue Skies and Duskfade, and another one is a remake...</div>
+            <div class="summary full" style="display:none">It's called Defender of the Crown: The Legend Returns.We've had a whole bunch of really interesting indie releases on Xbox this week including Wild Blue Skies and Duskfade, and another one is a remake of a 1986 Amiga classic that's just launched on Xbox Series X and Xbox Series S.The game we're referring to here is called Defender of the Crown: The Legend Returns, and it's a strategy title where you have to try and compete for land by taking part in battles, jousts, rescuing maidens and various other things.Read the full article on purexbox.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 13:15</span>
+                <span class="source">📰 Pure Xbox | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.purexbox.com/news/2026/08/1986-amiga-classic-gets-rebuilt-with-two-new-game-modes-for-xbox-series-xs" data-title="1986 Amiga Classic Gets Rebuilt With Two New Game Modes For Xbox Series X|S" data-source="Pure Xbox | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="gematsu" data-ts="1786712450" data-url="https://www.gematsu.com/2026/08/honkai-star-rail-version-4-5-update-to-roll-the-stars-in-astropolis-launches-august-26">
+        <img src="https://www.gematsu.com/wp-content/uploads/2026/08/Honkai-Star-Rail_2024_08-14-24_025.jpg" alt="" class="card-img" onclick="openLightbox(75)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.gematsu.com/2026/08/honkai-star-rail-version-4-5-update-to-roll-the-stars-in-astropolis-launches-august-26" target="_blank">Honkai: Star Rail version 4.5 update ‘To Roll the Stars in Astropolis’ launches August 26</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview"> The version 4.5 update for Honkai: Star Rail, dubbed &#8220;To Roll the Stars in Astropolis,&#8221; &hellip;...</div>
+            <div class="summary full" style="display:none"> The version 4.5 update for Honkai: Star Rail, dubbed &#8220;To Roll the Stars in Astropolis,&#8221; &hellip;</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 13:00</span>
+                <span class="source">📰 Gematsu</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.gematsu.com/2026/08/honkai-star-rail-version-4-5-update-to-roll-the-stars-in-astropolis-launches-august-26" data-title="Honkai: Star Rail version 4.5 update ‘To Roll the Stars in Astropolis’ launches August 26" data-source="Gematsu" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="push-square-|-latest-updates" data-ts="1786710600" data-url="https://www.pushsquare.com/news/2026/08/halo-campaign-evolved-ps5-update-lands-next-week-with-tech-fixes">
+        <img src="https://images.pushsquare.com/b3fa041a099eb/small.jpg" alt="" class="card-img" onclick="openLightbox(76)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.pushsquare.com/news/2026/08/halo-campaign-evolved-ps5-update-lands-next-week-with-tech-fixes" target="_blank">Halo: Campaign Evolved PS5 Update Lands Next Week with Tech Fixes</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">A better Sgt. Johnson and updates to Jackals.Halo Studios has announced a new PS5 update for Halo: Campaign Evolved will go live next week that includes a raft of fixes and technical improvements.Ther...</div>
+            <div class="summary full" style="display:none">A better Sgt. Johnson and updates to Jackals.Halo Studios has announced a new PS5 update for Halo: Campaign Evolved will go live next week that includes a raft of fixes and technical improvements.There'll be more to the patch, but the developer has shared some of the biggest things it's fixing with the update:Read the full article on pushsquare.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 12:30</span>
+                <span class="source">📰 Push Square | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.pushsquare.com/news/2026/08/halo-campaign-evolved-ps5-update-lands-next-week-with-tech-fixes" data-title="Halo: Campaign Evolved PS5 Update Lands Next Week with Tech Fixes" data-source="Push Square | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="rock-paper-shotgun-latest-articles-feed" data-ts="1786710486" data-url="https://www.rockpapershotgun.com/have-your-say-on-the-rps-supporter-program-with-this-short-yet-deeply-opinion-absorbent-survey">
-        <img src="https://assetsio.gnwcdn.com/london-royal-exchange-1600-(1).jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(63)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/london-royal-exchange-1600-(1).jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(77)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.rockpapershotgun.com/have-your-say-on-the-rps-supporter-program-with-this-short-yet-deeply-opinion-absorbent-survey" target="_blank">Have your say on the RPS Supporter program with this short, yet deeply opinion-absorbent survey</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> You&rsquo;ve heard our ideas on how to make the RPS Supporter program more betterer, now we want to hear yours. Everyone, regardless of whether you&rsquo;re already signed up or not, is invited to ta...</div>
@@ -1561,8 +1758,22 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
             </div>
         </div>
     </div>
+    <div class="news" data-source="push-square-|-latest-updates" data-ts="1786708800" data-url="https://www.pushsquare.com/news/2026/08/youll-have-to-wait-until-2028-to-play-ps5s-shiniest-jankiest-sci-fi-adventure">
+        <img src="https://images.pushsquare.com/72a94fccd33b3/small.jpg" alt="" class="card-img" onclick="openLightbox(78)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.pushsquare.com/news/2026/08/youll-have-to-wait-until-2028-to-play-ps5s-shiniest-jankiest-sci-fi-adventure" target="_blank">You'll Have to Wait Until 2028 to Play PS5's Shiniest, Jankiest Sci-Fi Adventure</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">New Neo Berlin 2087 trailer just dropped.You may remember Neo Berlin 2087, a game that's been mystifying PS5 fans since its announcement back in 2023.Well, this cyberpunk detective thriller has just r...</div>
+            <div class="summary full" style="display:none">New Neo Berlin 2087 trailer just dropped.You may remember Neo Berlin 2087, a game that's been mystifying PS5 fans since its announcement back in 2023.Well, this cyberpunk detective thriller has just released a new trailer ahead of Gamescom, and unfortunately, there's still quite a wait before we get to experience it; the game's slated for launch in 2028.Read the full article on pushsquare.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 12:00</span>
+                <span class="source">📰 Push Square | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.pushsquare.com/news/2026/08/youll-have-to-wait-until-2028-to-play-ps5s-shiniest-jankiest-sci-fi-adventure" data-title="You'll Have to Wait Until 2028 to Play PS5's Shiniest, Jankiest Sci-Fi Adventure" data-source="Push Square | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="eurogamernet-latest-articles-feed" data-ts="1786708416" data-url="https://www.eurogamer.net/2k-sports-new-studio-ea-sports-fc-football-challenger">
-        <img src="https://assetsio.gnwcdn.com/small-axe-studio-fifa-football-ea-sports-c.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(64)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/small-axe-studio-fifa-football-ea-sports-c.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(79)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.eurogamer.net/2k-sports-new-studio-ea-sports-fc-football-challenger" target="_blank">EA Sports FC might be getting a proper football game challenger, as 2K sets up new studio to make its "next blockbuster sports franchise"</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> EA's relatively uncontested football crown may be seriously challenged again, as 2K Sports announces a brand new studio led by a former FIFA executive producer that's mandated to create the company's...</div>
@@ -1575,8 +1786,22 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
             </div>
         </div>
     </div>
+    <div class="news" data-source="push-square-|-latest-updates" data-ts="1786707000" data-url="https://www.pushsquare.com/news/2026/08/sonic-frontiers-surpasses-5-million-copies-sold-as-fans-await-what-comes-next">
+        <img src="https://images.pushsquare.com/d6c5dd8f2ccdd/small.jpg" alt="" class="card-img" onclick="openLightbox(80)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.pushsquare.com/news/2026/08/sonic-frontiers-surpasses-5-million-copies-sold-as-fans-await-what-comes-next" target="_blank">Sonic Frontiers Surpasses 5 Million Copies Sold as Fans Await What Comes Next</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview">Hedgehog fund.SEGA has announced that Sonic Frontiers has now officially sold over 5 million copies.The news came via social media yesterday:Read the full article on pushsquare.com...</div>
+            <div class="summary full" style="display:none">Hedgehog fund.SEGA has announced that Sonic Frontiers has now officially sold over 5 million copies.The news came via social media yesterday:Read the full article on pushsquare.com</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 11:30</span>
+                <span class="source">📰 Push Square | Latest Updates</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.pushsquare.com/news/2026/08/sonic-frontiers-surpasses-5-million-copies-sold-as-fans-await-what-comes-next" data-title="Sonic Frontiers Surpasses 5 Million Copies Sold as Fans Await What Comes Next" data-source="Push Square | Latest Updates" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="eurogamernet-latest-articles-feed" data-ts="1786706904" data-url="https://www.eurogamer.net/marvel-tokon-fighting-souls-review">
-        <img src="https://assetsio.gnwcdn.com/marvel-tokon-spiderman-web.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(65)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/marvel-tokon-spiderman-web.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(81)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.eurogamer.net/marvel-tokon-fighting-souls-review" target="_blank">Marvel Tōkon: Fighting Souls review</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Whenever I see the words &quot;spiritual successor&quot; attached to any new game, I immediately get concerned. You set a bar in the minds of old fans that can prove impossible to reach. This is not the next g...</div>
@@ -1590,7 +1815,7 @@ To catch you up, in case you had the good fortune to miss all the yelling earlie
         </div>
     </div>
     <div class="news" data-source="rock-paper-shotgun-latest-articles-feed" data-ts="1786706574" data-url="https://www.rockpapershotgun.com/i-love-the-dark-soulful-architecture-of-the-canon-of-balls-a-rolling-open-world-game-inspired-by-sega-fumito-ueda-and-minecraft-parkour">
-        <img src="https://assetsio.gnwcdn.com/20260814110734_1.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(66)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/20260814110734_1.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(82)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.rockpapershotgun.com/i-love-the-dark-soulful-architecture-of-the-canon-of-balls-a-rolling-open-world-game-inspired-by-sega-fumito-ueda-and-minecraft-parkour" target="_blank">I love the Dark Soulful architecture of The Canon of Balls, a rolling open world game inspired by Sega, Fumito Ueda and Minecraft parkour</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> 
@@ -1608,7 +1833,7 @@ Look, stay with me on this. I think The Canon of Balls could be good. Yes, I kno
         </div>
     </div>
     <div class="news" data-source="gamedeveloper" data-ts="1786704703" data-url="https://www.gamedeveloper.com/business/scabby-versus-sharma-twitch-s-genai-admission-and-netflix-shutters-more-studios-patch-notes-65">
-        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb754f40282304078/6a7efb31e9f4a670eb7660af/Patch_65.png?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(67)" onerror="this.style.display='none'">
+        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb754f40282304078/6a7efb31e9f4a670eb7660af/Patch_65.png?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(83)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamedeveloper.com/business/scabby-versus-sharma-twitch-s-genai-admission-and-netflix-shutters-more-studios-patch-notes-65" target="_blank">Scabby versus Sharma, Twitch's GenAI admission, and Netflix shutters more studios - Patch Notes #65</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Plus: Big sales for Big Walk and some welcome preservation news....</div>
@@ -1622,7 +1847,7 @@ Look, stay with me on this. I think The Canon of Balls could be good. Yes, I kno
         </div>
     </div>
     <div class="news" data-source="rock-paper-shotgun-latest-articles-feed" data-ts="1786699713" data-url="https://www.rockpapershotgun.com/total-war-warhammer-3-is-getting-a-big-free-vampiric-update-in-september-alongside-the-epithet-stuffed-lords-of-the-end-times-dlc">
-        <img src="https://assetsio.gnwcdn.com/TODBRINGER.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(68)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/TODBRINGER.jpg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(84)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.rockpapershotgun.com/total-war-warhammer-3-is-getting-a-big-free-vampiric-update-in-september-alongside-the-epithet-stuffed-lords-of-the-end-times-dlc" target="_blank">Total War: Warhammer 3 is getting a big free vampiric update in September, alongside the epithet-stuffed Lords of the End Times DLC</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> 
@@ -1641,8 +1866,22 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
             </div>
         </div>
     </div>
+    <div class="news" data-source="gematsu" data-ts="1786665933" data-url="https://www.gematsu.com/2026/08/pokemon-pokopia-sales-top-five-million">
+        <img src="https://www.gematsu.com/wp-content/uploads/2026/08/Pokopia-Sales_08-13-26.jpg" alt="" class="card-img" onclick="openLightbox(85)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.gematsu.com/2026/08/pokemon-pokopia-sales-top-five-million" target="_blank">Pokemon Pokopia sales top five million</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview"> Total sales for Pokemon Pokopia have surpassed five million units, The Pokemon Company announced. Pokemon &hellip;...</div>
+            <div class="summary full" style="display:none"> Total sales for Pokemon Pokopia have surpassed five million units, The Pokemon Company announced. Pokemon &hellip;</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 14, 2026 · 00:05</span>
+                <span class="source">📰 Gematsu</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.gematsu.com/2026/08/pokemon-pokopia-sales-top-five-million" data-title="Pokemon Pokopia sales top five million" data-source="Gematsu" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="game-informer" data-ts="1786655160" data-url="https://gameinformer.com/2026/08/13/netflix-closes-two-gaming-studios-including-oxenfree-developer-night-school">
-        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2022/06/10/eab54e04/oxenfreeii-03-dialogue-bubbles.jpg.webp" alt="" class="card-img" onclick="openLightbox(69)" onerror="this.style.display='none'">
+        <img src="https://gameinformer.com/sites/default/files/styles/body_default/public/2022/06/10/eab54e04/oxenfreeii-03-dialogue-bubbles.jpg.webp" alt="" class="card-img" onclick="openLightbox(86)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://gameinformer.com/2026/08/13/netflix-closes-two-gaming-studios-including-oxenfree-developer-night-school" target="_blank">Netflix Closes Two Gaming Studios, Including Oxenfree Developer Night School</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">
@@ -1661,8 +1900,22 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
             </div>
         </div>
     </div>
+    <div class="news" data-source="gematsu" data-ts="1786651531" data-url="https://www.gematsu.com/2026/08/neo-berlin-2087-launches-in-2028">
+        <img src="https://www.gematsu.com/wp-content/uploads/2026/08/Neo-Berlin-2087_08-13-26.jpg" alt="" class="card-img" onclick="openLightbox(87)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.gematsu.com/2026/08/neo-berlin-2087-launches-in-2028" target="_blank">NEO BERLIN 2087 launches in 2028</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview"> Action RPG NEO BERLIN 2087 will launch for PlayStation 5, Xbox Series, and PC via &hellip;...</div>
+            <div class="summary full" style="display:none"> Action RPG NEO BERLIN 2087 will launch for PlayStation 5, Xbox Series, and PC via &hellip;</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 13, 2026 · 20:05</span>
+                <span class="source">📰 Gematsu</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.gematsu.com/2026/08/neo-berlin-2087-launches-in-2028" data-title="NEO BERLIN 2087 launches in 2028" data-source="Gematsu" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="gamedeveloper" data-ts="1786650855" data-url="https://www.gamedeveloper.com/business/netflix-closing-oxenfree-developer-night-school-studio-and-moonloot-games">
-        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt903b5f171fb1de1f/6a7e23bc0dd8b201a332a34d/unhinged_key_art.webp?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(70)" onerror="this.style.display='none'">
+        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt903b5f171fb1de1f/6a7e23bc0dd8b201a332a34d/unhinged_key_art.webp?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(88)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamedeveloper.com/business/netflix-closing-oxenfree-developer-night-school-studio-and-moonloot-games" target="_blank">Netflix closing Oxenfree developer Night School Studio and Moonloot Games</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">'We believe we can operate more strategically and efficiently within our Games business, and as a result are eliminating some additional Games roles'...</div>
@@ -1675,8 +1928,36 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
             </div>
         </div>
     </div>
+    <div class="news" data-source="gematsu" data-ts="1786647036" data-url="https://www.gematsu.com/2026/08/netflix-to-close-night-school-studios-moonloot-games">
+        <img src="https://www.gematsu.com/wp-content/uploads/2026/08/Night-School-Moonloot_08-13-26.jpg" alt="" class="card-img" onclick="openLightbox(89)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.gematsu.com/2026/08/netflix-to-close-night-school-studios-moonloot-games" target="_blank">Netflix to close Night School Studios, Moonloot Games</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview"> Netflix will shut down Los Angeles-based Oxenfree series developer Night School Studio and Helsinki-based Moonloot &hellip;...</div>
+            <div class="summary full" style="display:none"> Netflix will shut down Los Angeles-based Oxenfree series developer Night School Studio and Helsinki-based Moonloot &hellip;</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 13, 2026 · 18:50</span>
+                <span class="source">📰 Gematsu</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.gematsu.com/2026/08/netflix-to-close-night-school-studios-moonloot-games" data-title="Netflix to close Night School Studios, Moonloot Games" data-source="Gematsu" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="news" data-source="gematsu" data-ts="1786647023" data-url="https://www.gematsu.com/2026/08/high-on-life-vr-announced-for-ps-vr2-pc-and-quest">
+        <img src="https://www.gematsu.com/wp-content/uploads/2026/08/High-On-Life-VR-Ann_08-13-26.jpg" alt="" class="card-img" onclick="openLightbox(90)" onerror="this.style.display='none'">
+        <div class="news-body">
+            <div class="title"><a href="https://www.gematsu.com/2026/08/high-on-life-vr-announced-for-ps-vr2-pc-and-quest" target="_blank">High On Life VR announced for PS VR2, PC, and Quest</a><span class="new-badge" style="display:none">NEW</span></div>
+            <div class="summary preview"> Flat2VR Studios and Squanch Games have announced High On Life VR for PlayStation VR2, PC &hellip;...</div>
+            <div class="summary full" style="display:none"> Flat2VR Studios and Squanch Games have announced High On Life VR for PlayStation VR2, PC &hellip;</div>
+            <div class="meta">
+                <span class="date">🕒 Aug 13, 2026 · 18:50</span>
+                <span class="source">📰 Gematsu</span>
+                <button class="bookmark-btn" title="Save for later" data-url="https://www.gematsu.com/2026/08/high-on-life-vr-announced-for-ps-vr2-pc-and-quest" data-title="High On Life VR announced for PS VR2, PC, and Quest" data-source="Gematsu" onclick="toggleBookmark(this)">🔖</button>
+                <button class="expand-btn" onclick="toggleExpand(this)">▼ Read more</button>
+            </div>
+        </div>
+    </div>
     <div class="news" data-source="gamedeveloper" data-ts="1786639113" data-url="https://www.gamedeveloper.com/business/2k-announces-new-vancouver-based-studio-led-by-ea-veteran">
-        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb6373fc5e64be2aa/6a7df3b1d0a4172381d889a4/Small_Axe_Header.png?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(71)" onerror="this.style.display='none'">
+        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb6373fc5e64be2aa/6a7df3b1d0a4172381d889a4/Small_Axe_Header.png?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(91)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamedeveloper.com/business/2k-announces-new-vancouver-based-studio-led-by-ea-veteran" target="_blank">2K announces new Vancouver-based AAA studio led by EA veteran</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">After almost two decades at EA, Aaron McHardy will act as vice president, executive producer, and head of Small Axe Studios....</div>
@@ -1690,7 +1971,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="gamedeveloper" data-ts="1786634207" data-url="https://www.gamedeveloper.com/business/xsolla-rolls-out-publishing-tools-to-keep-players-engaged-after-the-first-purchase">
-        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt6196f7fab43d2439/6a7de0c1c0f2be8b3bdeec68/New_Project(21).png?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(72)" onerror="this.style.display='none'">
+        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt6196f7fab43d2439/6a7de0c1c0f2be8b3bdeec68/New_Project(21).png?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(92)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamedeveloper.com/business/xsolla-rolls-out-publishing-tools-to-keep-players-engaged-after-the-first-purchase" target="_blank">Xsolla rolls out publishing tools to keep players 'engaged' after the first purchase</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">The commerce company wants to give studios more ways to drive repeat purchases....</div>
@@ -1704,7 +1985,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="gamedeveloper" data-ts="1786631460" data-url="https://www.gamedeveloper.com/business/saber-interactive-denies-replacing-writers-with-ai-on-rideshare-stimulator-">
-        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltef068dcaa36e8c54/6a7c802c08084de2fdbbdab8/ss_24a50290ce0be6b7c830995615485ef9669d276a.1920x1080.jpg?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(73)" onerror="this.style.display='none'">
+        <img src="https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltef068dcaa36e8c54/6a7c802c08084de2fdbbdab8/ss_24a50290ce0be6b7c830995615485ef9669d276a.1920x1080.jpg?width=720&quality=80&disable=upscale" alt="" class="card-img" onclick="openLightbox(93)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamedeveloper.com/business/saber-interactive-denies-replacing-writers-with-ai-on-rideshare-stimulator-" target="_blank">Saber Interactive to add Rideshare 'Stimulator' AI disclosure after public controversy</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">'Neither Saber nor Unigine have replaced any writers with AI for Rideshare or any other game.'...</div>
@@ -1718,7 +1999,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="gaming---ars-technica" data-ts="1786400623" data-url="https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/">
-        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg-500x500-1778860940.jpg" alt="" class="card-img" onclick="openLightbox(74)" onerror="this.style.display='none'">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg-500x500-1778860940.jpg" alt="" class="card-img" onclick="openLightbox(94)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://arstechnica.com/gaming/2026/08/ars-live-ross-scott-discusses-the-stop-killing-games-movement/" target="_blank">Live now: Ross Scott discusses the Stop Killing Games movement</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Our discussion takes place live on August 11 at 2:30 pm ET....</div>
@@ -1732,7 +2013,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="gaming---ars-technica" data-ts="1786397198" data-url="https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/">
-        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-500x500.jpg" alt="" class="card-img" onclick="openLightbox(75)" onerror="this.style.display='none'">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-500x500.jpg" alt="" class="card-img" onclick="openLightbox(95)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://arstechnica.com/gadgets/2026/08/players-lose-access-to-aliens-fireteam-elite-on-nintendo-switch-without-refunds/" target="_blank">Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">A reminder of the perils of digital ownership....</div>
@@ -1746,7 +2027,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="gaming---ars-technica" data-ts="1786377664" data-url="https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/">
-        <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/12/powered-by-steam-os-500x500-1786375747.jpg" alt="" class="card-img" onclick="openLightbox(76)" onerror="this.style.display='none'">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2024/12/powered-by-steam-os-500x500-1786375747.jpg" alt="" class="card-img" onclick="openLightbox(96)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://arstechnica.com/gaming/2026/08/valve-slowly-expands-steamos-support-on-non-valve-hardware/" target="_blank">Valve slowly expands SteamOS support on non-Valve hardware</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">New update includes improvements for the Intel-based MSI Claw 8 EX AI+ among others....</div>
@@ -1760,7 +2041,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="gaming---ars-technica" data-ts="1786125602" data-url="https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/">
-        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/08/QUAKE_DLC_Xbox_TitledHero_1920x1080-02-JPG-9d514999ee7900fc9cfe-1600x900-1-500x500-1786124870.jpg" alt="" class="card-img" onclick="openLightbox(77)" onerror="this.style.display='none'">
+        <img src="https://cdn.arstechnica.net/wp-content/uploads/2026/08/QUAKE_DLC_Xbox_TitledHero_1920x1080-02-JPG-9d514999ee7900fc9cfe-1600x900-1-500x500-1786124870.jpg" alt="" class="card-img" onclick="openLightbox(97)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://arstechnica.com/gaming/2026/08/new-official-30th-anniversary-quake-mission-pack-adds-new-maps-and-mechanics/" target="_blank">New official 30th anniversary Quake mission pack adds new maps and mechanics</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">19 new maps continue the story from MachineGames' other campaign additions....</div>
@@ -1774,7 +2055,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="vg247-latest-articles-feed" data-ts="1780389681" data-url="https://www.vg247.com/monopoly-go-the-simpsons-crossover-details">
-        <img src="https://assetsio.gnwcdn.com/monopoly-go-simpsons-crossover-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(78)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/monopoly-go-simpsons-crossover-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(98)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.vg247.com/monopoly-go-the-simpsons-crossover-details" target="_blank">Monopoly Go x The Simpsons crossover is almost here</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Monopoly Go players have been looking forward to a major crossover event for what felt like months, and though most of the details ended up leaking, nothing actually beats official information. Read ...</div>
@@ -1788,7 +2069,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="vg247-latest-articles-feed" data-ts="1779457424" data-url="https://www.vg247.com/honkai-star-rail-version-4-3-all-details">
-        <img src="https://assetsio.gnwcdn.com/honkai-star-rail-version-4-3-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(79)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/honkai-star-rail-version-4-3-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(99)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.vg247.com/honkai-star-rail-version-4-3-all-details" target="_blank">Honkai: Star Rail Version 4.3 will take us deeper into the World in Canvas and make Mortenax Blade playable</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> HoYoverse has today delivered full details on the next major update for Honkai: Star Rail. Version 4.3, dubbed The Lethe Below the Living, will be available for all players on June 1. The upcoming up...</div>
@@ -1802,7 +2083,7 @@ There are over a hundred legendary lords in Twarhammer 3 at this point. I feel l
         </div>
     </div>
     <div class="news" data-source="gamespot---all-content" data-ts="1779457080" data-url="https://www.gamespot.com/articles/honkai-star-rail-next-update-and-banners/1100-6538813/">
-        <img src="https://www.gamespot.com/wp-content/uploads/2026/05/Honkai-Star-Rail-next-update-and-banners-version-4.5-header.jpg?w=300" alt="" class="card-img" onclick="openLightbox(80)" onerror="this.style.display='none'">
+        <img src="https://www.gamespot.com/wp-content/uploads/2026/05/Honkai-Star-Rail-next-update-and-banners-version-4.5-header.jpg?w=300" alt="" class="card-img" onclick="openLightbox(100)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamespot.com/articles/honkai-star-rail-next-update-and-banners/1100-6538813/" target="_blank">Honkai Star Rail Next Update And Banners</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">Want to know when the next Honkai: Star Rail update is? Thanks to official livestreams providing banner and event details for each new patch, we usually know well in advance what's awaiting us in the ...</div>
@@ -2206,7 +2487,7 @@ Story dialogues can now be played at a faster speed
         </div>
     </div>
     <div class="news" data-source="vg247-latest-articles-feed" data-ts="1778842802" data-url="https://www.vg247.com/forza-horizon-6-steam-numbers-big-launch">
-        <img src="https://assetsio.gnwcdn.com/forza-horizon-6-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(81)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/forza-horizon-6-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(101)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.vg247.com/forza-horizon-6-steam-numbers-big-launch" target="_blank">Forza Horizon 6 explodes on Steam even before it's officially out</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Steam is abuzz this week with a couple of long-anticipated launches, but in Forza Horizon 6&rsquo;s case, at least, the game isn&rsquo;t even out for what will be most of its players. The anticipated...</div>
@@ -2220,7 +2501,7 @@ Story dialogues can now be played at a faster speed
         </div>
     </div>
     <div class="news" data-source="vg247-latest-articles-feed" data-ts="1778839330" data-url="https://www.vg247.com/mystic-messenger-ban-wave-thousands-of-hourglasses-anniversary">
-        <img src="https://assetsio.gnwcdn.com/mystic-messenger%20(1).png?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(82)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/mystic-messenger%20(1).png?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(102)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.vg247.com/mystic-messenger-ban-wave-thousands-of-hourglasses-anniversary" target="_blank">Mystic Messenger's most loyal players are getting banned in droves for seemingly playing the game too much</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> Mystic Messenger, arguably one of the best dating sims around, has been dormant for about seven years. Despite not receiving new content or any meaningful updates in all that time, the game remains p...</div>
@@ -2234,7 +2515,7 @@ Story dialogues can now be played at a faster speed
         </div>
     </div>
     <div class="news" data-source="vg247-latest-articles-feed" data-ts="1778760003" data-url="https://www.vg247.com/forza-horizon-6-review">
-        <img src="https://assetsio.gnwcdn.com/forza-horizon-6-screen-13.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(83)" onerror="this.style.display='none'">
+        <img src="https://assetsio.gnwcdn.com/forza-horizon-6-screen-13.jpeg?width=690&quality=85&format=jpg&auto=webp" alt="" class="card-img" onclick="openLightbox(103)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.vg247.com/forza-horizon-6-review" target="_blank">Forza Horizon 6 review - The driving game for everyone still can’t seem to escape its car-collecting legacy</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview"> There is this idea that, for a long-running series to remain as consistently popular as Forza Horizon has been, it needs to diminish itself somewhat with each new entry, gradually losing more and mor...</div>
@@ -2248,7 +2529,7 @@ Story dialogues can now be played at a faster speed
         </div>
     </div>
     <div class="news" data-source="gamespot---all-content" data-ts="1758634440" data-url="https://www.gamespot.com/articles/2026-upcoming-games-release-schedule/1100-6534941/">
-        <img src="https://www.gamespot.com/wp-content/uploads/original/1597/15971423/4573206-4711152756-42300.jpg?w=300" alt="" class="card-img" onclick="openLightbox(84)" onerror="this.style.display='none'">
+        <img src="https://www.gamespot.com/wp-content/uploads/original/1597/15971423/4573206-4711152756-42300.jpg?w=300" alt="" class="card-img" onclick="openLightbox(104)" onerror="this.style.display='none'">
         <div class="news-body">
             <div class="title"><a href="https://www.gamespot.com/articles/2026-upcoming-games-release-schedule/1100-6534941/" target="_blank">2026 Upcoming Games Release Schedule</a><span class="new-badge" style="display:none">NEW</span></div>
             <div class="summary preview">2026 has begun, and it looks to be a very exciting year for video games. In addition to being the first full year for the Switch 2--we'll surely hear about even more games for the system as we move fu...</div>
@@ -5154,7 +5435,7 @@ Yunyun Syndrome!? Rhythm Psychosis (PC)</div>
         </div>
 
         <hr>
-        <p>Auto-updated every 30 min. 90 articles from 24 sources.</p>
+        <p>Auto-updated every 30 min. 110 articles from 24 sources.</p>
     </div>
 </div>
 
@@ -5247,7 +5528,7 @@ Yunyun Syndrome!? Rhythm Psychosis (PC)</div>
     startCountdown();
 
     // --- Lightbox ---
-    const photoData = [{"index": 0, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/08/rosario-dawson-spider-man-brand-new-day-deleted-scene.jpg", "title": "12 Major Stars Who Were Cut From MCU Movies", "source": "GameRant"}, {"index": 1, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/d23_poly2.jpg", "title": "Disney's D23 2026: All the trailers, news, and reveals in one place", "source": "Polygon.com"}, {"index": 2, "img": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Switch-list-all-GameShare-games-150x83.jpg", "title": "List of all Nintendo Switch 2 games that support GameShare", "source": "Nintendo Everything"}, {"index": 3, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/strongest-new-generation-pirates-in-one-piece.jpg", "title": "One Piece Officially Unveils The 3 Strongest New Gen Pirates", "source": "GameRant"}, {"index": 4, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/genshin-impact-ever-beneath-the-waves-quest-how-to-bring-the-wooden-cabin-to-shore.jpg", "title": "Bring The Wooden Cabin To Shore Guide In Ever Beneath the Waves Quest (Genshin Impact)", "source": "GameRant"}, {"index": 5, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/how-to-get-megaphone-big-walk.jpg", "title": "How to Get a Megaphone in Big Walk (All Locations)", "source": "GameRant"}, {"index": 6, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/japan-welcomes-big-3-isekai-anime.jpeg", "title": "Japan Officially Welcomes The Big 3 Isekai Anime", "source": "GameRant"}, {"index": 7, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/simpsons-1.jpg", "title": "The Best Simpsons Game May Be Returning, if You Believe Matt Groening", "source": "DualShockers"}, {"index": 8, "img": "https://cdn.mos.cms.futurecdn.net/2aY5xjJpmDEEYqWzPiuikd-1280-80.jpg", "title": "The Simpsons: Hit & Run \"is coming back in some form,\" says Matt Groening, but it looks like he wasn't supposed to", "source": "Latest from GamesRadar+"}, {"index": 9, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/bf958c5133b688b7309070eccf673d76cc9338111f4079af.avif", "title": "The Lord of the Rings: War in the North - Legacy Edition Review: An Exciting Remaster of a Fan-Favorite LOTR Game", "source": "DualShockers"}, {"index": 10, "img": "https://cdn.mos.cms.futurecdn.net/VHsCh9gyFNLCGkCCevaFXT-1280-80.jpg", "title": "Before Grand Theft Auto Online, GTA 4's multiplayer added 'glorious chaos' to the open world sandbox", "source": "PCGamer latest"}, {"index": 11, "img": "https://cdn.mos.cms.futurecdn.net/kexAqx6NbsD9h5HW7LMMun-1280-80.jpg", "title": "Lanterns creator says realism was \"totally the goal\" for the gritty new superhero drama because they're \"trying to tell a real story\"", "source": "Latest from GamesRadar+"}, {"index": 12, "img": "https://cdn.mos.cms.futurecdn.net/evkSfbeNLAwyb4KGHvCUJX-1280-80.jpg", "title": "D23 2026 live coverage \u2013All the Marvel and Star Wars announcements from the Disney Entertainment Showcase as it happens", "source": "Latest from GamesRadar+"}, {"index": 13, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/madden-nfl-27-review.jpg", "title": "Madden NFL 27 Review: One Step Forward, One Step Back", "source": "DualShockers"}, {"index": 14, "img": "https://cdn.mos.cms.futurecdn.net/XWS8doThLS4C3Mj2u6kyaR-1280-80.jpg", "title": "Disney says that Kingdom Hearts is now a 'billion dollar franchise'", "source": "PCGamer latest"}, {"index": 15, "img": "https://nintendoeverything.com/wp-content/uploads/Kirby-and-the-Forgotten-Land-Present-Codes-150x84.jpg", "title": "Kirby and the Forgotten Land list of all Present Codes", "source": "Nintendo Everything"}, {"index": 16, "img": "https://cdn.mos.cms.futurecdn.net/irKG7qMGWrhyJzfxSqeiXG-1280-80.jpg", "title": "Ahsoka season 2 D23 display teases more Clone Wars flashbacks and the return of Morai", "source": "Latest from GamesRadar+"}, {"index": 17, "img": "https://cdn.mos.cms.futurecdn.net/jnecqN6oBJxhXQcwrJFE3m-1280-80.jpg", "title": "The \"greatest speedrun accomplishment of all time\" is in sight as two legendary Super Mario Bros runners compete for a time that once seemed impossible", "source": "Latest from GamesRadar+"}, {"index": 18, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/games-like-animal-crossing.jpg", "title": "The 7 Most Perfect Cozy Games Like Animal Crossing", "source": "Polygon.com"}, {"index": 19, "img": "https://cdn.mos.cms.futurecdn.net/xto5MwozJtZMd7JE4Dv2uS-1280-80.jpg", "title": "Modding the Khajiit lands into Oblivion is still the cat's meow", "source": "PCGamer latest"}, {"index": 20, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/7a137fb8/duskfade2.jpg.webp", "title": "The Video Games And More You Should Play This Weekend \u2013 August 14, 2026", "source": "Game Informer"}, {"index": 21, "img": "https://cdn.mos.cms.futurecdn.net/Mfm9mvTkJtZyWkoMKJxXtX-1280-80.jpg", "title": "Here's a first for Call of Duty: The Modern Warfare 4 beta will have a campaign mission and Warzone stuff", "source": "PCGamer latest"}, {"index": 22, "img": "https://cdn.mos.cms.futurecdn.net/NMkcWYnUiW6Fr8h3UReQXR-1280-80.png", "title": "WoW's haunted: Players report that their disconnected friends' characters are starting to play the game on their own", "source": "PCGamer latest"}, {"index": 23, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/ss_27e5d2583f84da53f665674c47cbe6e72a9d6ecb-1920x1080.jpg", "title": "Cities: Skylines new replacement is about to become the best strategy game in years", "source": "Polygon.com"}, {"index": 24, "img": "https://nintendoeverything.com/wp-content/uploads/Disney-Dreamlight-Valley-Hannah-Montana-Lizzie-McGuire-collection-150x84.png", "title": "Disney Dreamlight Valley reveals The Keepsake Sea expansion, Hannah Montana & Lizzie McGuire collection, more", "source": "Nintendo Everything"}, {"index": 25, "img": "https://nintendoeverything.com/wp-content/uploads/Tower-Dominion-trailer-150x84.jpg", "title": "Tower Dominion launch trailer \u2013 roguelike tower defense game makes it to Nintendo Switch", "source": "Nintendo Everything"}, {"index": 26, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/mcdinvi_ec198.jpg", "title": "10 New Movies to Watch this Weekend on Netflix, Prime Video, and Peacock", "source": "Polygon.com"}, {"index": 27, "img": "", "title": "Fire Emblem: Fortune\u2019s Weave Cai Route Initial Characters Revealed", "source": "Siliconera"}, {"index": 28, "img": "", "title": "Best players for FC 26 Class on Grass Evolution", "source": "Destructoid"}, {"index": 29, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23224469/minish_cap.jpg", "title": "Beloved Legend of Zelda Games Get New Enhanced 3DS Ports", "source": "Polygon.com"}, {"index": 30, "img": "https://kotaku.com/app/uploads/2026/05/codmw4K_0001_MW4_MP_004_BRANDED-1280x720.jpg", "title": "Activision Really Wants You To Know Call Of Duty: Modern Warfare 4\u2032s Campaign Isn\u2019t A Horrible Mess Like BLOPS7", "source": "Kotaku"}, {"index": 31, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/nemu-news.jpg", "title": "Sony Pitches Stressed Out Bear as Its Own Hello Kitty", "source": "DualShockers"}, {"index": 32, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/eb5eea8f/m27_reveal_fl_cinematic_ontherun.jpg.webp", "title": "Madden NFL 27 Review - Third And Long", "source": "Game Informer"}, {"index": 33, "img": "", "title": "Disney touts \u2018core pillar\u2019 games like Kingdom Hearts and Marvel Rivals as crucial for its \u2018next chapter\u2019", "source": "Destructoid"}, {"index": 34, "img": "https://kotaku.com/app/uploads/2026/08/warpweek2002-best-12-games-1280x720.jpg", "title": "The 12 Best Video Games Of 2002", "source": "Kotaku"}, {"index": 35, "img": "", "title": "Monster Hunter Rathalos Nendoroid Tail Can Be Severed", "source": "Siliconera"}, {"index": 36, "img": "https://kotaku.com/app/uploads/2026/08/thimbleweed-1280x720.jpg", "title": "Monkey Island Creator\u2019s Next Game Is Funded By A Rich Guy Because He Was Tired Of Bad Publisher Deals", "source": "Kotaku"}, {"index": 37, "img": "", "title": "Best team to use in Path of Idle: Old Gods Rising", "source": "Destructoid"}, {"index": 38, "img": "", "title": "The world\u2019s most technical shooter is back from the dead, and it feels like a fever dream", "source": "Destructoid"}, {"index": 39, "img": "https://kotaku.com/app/uploads/2023/01/f838ffd9ad30b9ff65006420a015fea2-1280x720.jpg", "title": "A Surprising Overwatch Hero Wants Roadhog\u2019s Whole Hog", "source": "Kotaku"}, {"index": 40, "img": "https://www.gamespot.com/wp-content/uploads/2026/08/Rideshare-Stimulator.jpg?w=300", "title": "Rideshare Stimulator Outlines AI Usage After Contentious Exchange With Ex-Writer", "source": "GameSpot - All Content"}, {"index": 41, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/b07ea296/780_Lead.png.webp", "title": "Fire Emblem: Fortune's Weave Is Massive | TGIS", "source": "Game Informer"}, {"index": 42, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/AI-Hyperscaler-Fiber-Optic-Network-1-1456x818.jpg", "title": "As NVIDIA Adds 100 Dark Fiber Pairs, Some AI Hyperscalers Are Quietly Blocking Fiber Off-Ramps To Rural Towns, Suffocating A Key Benefit", "source": "Wccftech"}, {"index": 43, "img": "https://nintendoeverything.com/wp-content/uploads/Arcade-Archives-Ridge-Racer-sale-150x84.jpg", "title": "Arcade Archives Nintendo Switch 2 and Switch sale live, lowest price ever for Ridge Racer and more", "source": "Nintendo Everything"}, {"index": 44, "img": "", "title": "FFXI Shadow Lord Shirt Returns in Shadow Lord\u2019s Dominion Event", "source": "Siliconera"}, {"index": 45, "img": "https://kotaku.com/app/uploads/2026/08/image-2026-08-14T103132.328.jpg", "title": "I Think Kingdom Hearts Is Going To Change The World", "source": "Kotaku"}, {"index": 46, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/04/the-lego-movie-videogame.jpg", "title": "Someone Is Making a Disney LEGO Game, and It Isn't TT Games", "source": "DualShockers"}, {"index": 47, "img": "https://www.gamespot.com/wp-content/uploads/2026/08/MW4_KB_07_BRANDED.jpg?w=300", "title": "Here\u2019s A First Look At CoD: Warzone\u2019s New Zodiac Map For MW4", "source": "GameSpot - All Content"}, {"index": 48, "img": "", "title": "Best players for FC 26 Passing Focus Evolution", "source": "Destructoid"}, {"index": 49, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/07/15/49b634e4/380_onimusha21.jpg.webp", "title": "Onimusha: Way Of The Sword Isn\u2019t A Horror Game, But There Are Definitely Moments Of Horror", "source": "Game Informer"}, {"index": 50, "img": "", "title": "Atelier Karia Survey Shows People Want to See Her Body Shape Change", "source": "Siliconera"}, {"index": 51, "img": "https://assetsio.gnwcdn.com/thewatcher.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "The Watcher is a creepy surveillance thriller with shiny Unreal Engine props - I just hope it's not as talkative as its trailer", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 52, "img": "https://www.gamespot.com/wp-content/uploads/2026/08/Halo-Campaign-Evolved-Will-Look-Better-Soon.jpg?w=300", "title": "Halo: Campaign Evolved Will Look Way Better Soon", "source": "GameSpot - All Content"}, {"index": 53, "img": "", "title": "New Frieren Gacha Features Figures of Her Sleeping", "source": "Siliconera"}, {"index": 54, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/SanDisk-HBF-Cover-Image-1456x757.jpg", "title": "SanDisk Takes \u2018Finance Bros\u2019 For A Ride: Cherry-Picks BF16 Quantization And Outdated HBM Specs, While Completely Glossing Over HBF\u2019s Write Endurance Issues", "source": "Wccftech"}, {"index": 55, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/3408519540_a597fef749_k-500x500.jpg", "title": "Ars Live recap: How can we stop publishers from killing their own games?", "source": "Gaming - Ars Technica"}, {"index": 56, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/Intel-Raptor-Lake-CPUs-1456x971.jpg", "title": "Intel Wants To Keep Offering Raptor Lake CPUs Till Memory Prices Return To Normal", "source": "Wccftech"}, {"index": 57, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/Snapdragon-8-Elite-Gen-6-Pro-5-1456x819.jpg", "title": "Snapdragon 8 Elite Gen 6 Pro Benchmark Results In AnTuTu Show A 20% Performance Improvement Over The Fastest Android Smartphone Currently In Existence", "source": "Wccftech"}, {"index": 58, "img": "https://assetsio.gnwcdn.com/rideshare-stimulator_SBvvZcB.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Rideshare Stimulator finally gets its genAI disclosure after much Saber-rattling, and it turns out the game also uses the tech for in-game music", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 59, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/Core-Ultra-5-250K-Plus-motherboard-RAM-bundle-deal-1456x819.jpg", "title": "Micro Center Bundles Core Ultra 5 250K Plus With A Motherboard And 32 GB RAM, So You Can Save $270", "source": "Wccftech"}, {"index": 60, "img": "https://assetsio.gnwcdn.com/specialeffect_boy_header.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "UK video game industry charity football match raises over \u00a363,000 for physically disabled gamers", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 61, "img": "https://assetsio.gnwcdn.com/south-of-midnight_FEBooHb.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Compulsion Games becomes publisher of South of Midnight on Steam, suggesting departure from Xbox amid major restructuring is now complete", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 62, "img": "https://assetsio.gnwcdn.com/pokopia-header.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Nintendo announces Pok\u00e9mon Pokopia has sold over 5m copies, meaning that roughly one in four Switch 2 users now owns the game", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 63, "img": "https://assetsio.gnwcdn.com/london-royal-exchange-1600-(1).jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Have your say on the RPS Supporter program with this short, yet deeply opinion-absorbent survey", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 64, "img": "https://assetsio.gnwcdn.com/small-axe-studio-fifa-football-ea-sports-c.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "EA Sports FC might be getting a proper football game challenger, as 2K sets up new studio to make its \"next blockbuster sports franchise\"", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 65, "img": "https://assetsio.gnwcdn.com/marvel-tokon-spiderman-web.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Marvel T\u014dkon: Fighting Souls review", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 66, "img": "https://assetsio.gnwcdn.com/20260814110734_1.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "I love the Dark Soulful architecture of The Canon of Balls, a rolling open world game inspired by Sega, Fumito Ueda and Minecraft parkour", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 67, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb754f40282304078/6a7efb31e9f4a670eb7660af/Patch_65.png?width=720&quality=80&disable=upscale", "title": "Scabby versus Sharma, Twitch's GenAI admission, and Netflix shutters more studios - Patch Notes #65", "source": "gamedeveloper"}, {"index": 68, "img": "https://assetsio.gnwcdn.com/TODBRINGER.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Total War: Warhammer 3 is getting a big free vampiric update in September, alongside the epithet-stuffed Lords of the End Times DLC", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 69, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2022/06/10/eab54e04/oxenfreeii-03-dialogue-bubbles.jpg.webp", "title": "Netflix Closes Two Gaming Studios, Including Oxenfree Developer Night School", "source": "Game Informer"}, {"index": 70, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt903b5f171fb1de1f/6a7e23bc0dd8b201a332a34d/unhinged_key_art.webp?width=720&quality=80&disable=upscale", "title": "Netflix closing Oxenfree developer Night School Studio and Moonloot Games", "source": "gamedeveloper"}, {"index": 71, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb6373fc5e64be2aa/6a7df3b1d0a4172381d889a4/Small_Axe_Header.png?width=720&quality=80&disable=upscale", "title": "2K announces new Vancouver-based AAA studio led by EA veteran", "source": "gamedeveloper"}, {"index": 72, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt6196f7fab43d2439/6a7de0c1c0f2be8b3bdeec68/New_Project(21).png?width=720&quality=80&disable=upscale", "title": "Xsolla rolls out publishing tools to keep players 'engaged' after the first purchase", "source": "gamedeveloper"}, {"index": 73, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltef068dcaa36e8c54/6a7c802c08084de2fdbbdab8/ss_24a50290ce0be6b7c830995615485ef9669d276a.1920x1080.jpg?width=720&quality=80&disable=upscale", "title": "Saber Interactive to add Rideshare 'Stimulator' AI disclosure after public controversy", "source": "gamedeveloper"}, {"index": 74, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg-500x500-1778860940.jpg", "title": "Live now: Ross Scott discusses the Stop Killing Games movement", "source": "Gaming - Ars Technica"}, {"index": 75, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-500x500.jpg", "title": "Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds", "source": "Gaming - Ars Technica"}, {"index": 76, "img": "https://cdn.arstechnica.net/wp-content/uploads/2024/12/powered-by-steam-os-500x500-1786375747.jpg", "title": "Valve slowly expands SteamOS support on non-Valve hardware", "source": "Gaming - Ars Technica"}, {"index": 77, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/QUAKE_DLC_Xbox_TitledHero_1920x1080-02-JPG-9d514999ee7900fc9cfe-1600x900-1-500x500-1786124870.jpg", "title": "New official 30th anniversary Quake mission pack adds new maps and mechanics", "source": "Gaming - Ars Technica"}, {"index": 78, "img": "https://assetsio.gnwcdn.com/monopoly-go-simpsons-crossover-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Monopoly Go x The Simpsons crossover is almost here", "source": "VG247 Latest Articles Feed"}, {"index": 79, "img": "https://assetsio.gnwcdn.com/honkai-star-rail-version-4-3-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Honkai: Star Rail Version 4.3 will take us deeper into the World in Canvas and make Mortenax Blade playable", "source": "VG247 Latest Articles Feed"}, {"index": 80, "img": "https://www.gamespot.com/wp-content/uploads/2026/05/Honkai-Star-Rail-next-update-and-banners-version-4.5-header.jpg?w=300", "title": "Honkai Star Rail Next Update And Banners", "source": "GameSpot - All Content"}, {"index": 81, "img": "https://assetsio.gnwcdn.com/forza-horizon-6-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Forza Horizon 6 explodes on Steam even before it's officially out", "source": "VG247 Latest Articles Feed"}, {"index": 82, "img": "https://assetsio.gnwcdn.com/mystic-messenger%20(1).png?width=690&quality=85&format=jpg&auto=webp", "title": "Mystic Messenger's most loyal players are getting banned in droves for seemingly playing the game too much", "source": "VG247 Latest Articles Feed"}, {"index": 83, "img": "https://assetsio.gnwcdn.com/forza-horizon-6-screen-13.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Forza Horizon 6 review - The driving game for everyone still can\u2019t seem to escape its car-collecting legacy", "source": "VG247 Latest Articles Feed"}, {"index": 84, "img": "https://www.gamespot.com/wp-content/uploads/original/1597/15971423/4573206-4711152756-42300.jpg?w=300", "title": "2026 Upcoming Games Release Schedule", "source": "GameSpot - All Content"}, {"index": 85, "img": "", "title": "A Two Parter! \u2013 The TouchArcade Show #613", "source": "TouchArcade"}, {"index": 86, "img": "", "title": "The Reports of Our Death Have Been Mildly Exaggerated \u2013 The TouchArcade Show #612", "source": "TouchArcade"}, {"index": 87, "img": "", "title": "Nintendo Switch Part Deux \u2013 The TouchArcade Show #611", "source": "TouchArcade"}, {"index": 88, "img": "", "title": "Where Have We Been!? \u2013 The TouchArcade Show #610", "source": "TouchArcade"}, {"index": 89, "img": "", "title": "Polar Express is SCARY \u2013 The TouchArcade Show #609", "source": "TouchArcade"}];
+    const photoData = [{"index": 0, "img": "https://nintendoeverything.com/wp-content/uploads/Kingdom-Hearts-4-2027-anime-series-150x84.png", "title": "Brand new Kingdom Hearts 4 trailer released, confirmed for late 2027, anime series announced", "source": "Nintendo Everything"}, {"index": 1, "img": "https://kotaku.com/app/uploads/2025/04/095926224b17dcad15577c2722a20272-1280x720.jpg", "title": "Kingdom Hearts IV Gets 2027 Release Window And That\u2019s Not All", "source": "Kotaku"}, {"index": 2, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/remnant-incense-guide-fellfrost-peak-shadow-realm-treasure-vault-at-fellfrost-peak.jpg", "title": "Precious & Luxurious Chest Locations In Fellfrost Peak & Volkodlak Tundra (Genshin Impact)", "source": "GameRant"}, {"index": 3, "img": "https://images.nintendolife.com/5e8013af479e7/small.jpg", "title": "The Simpsons Hit & Run Could Be Making A Return \"In Some Form\"", "source": "Nintendo Life | Latest Updates"}, {"index": 4, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/wm/2026/08/rosario-dawson-spider-man-brand-new-day-deleted-scene.jpg", "title": "12 Major Stars Who Were Cut From MCU Movies", "source": "GameRant"}, {"index": 5, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/d23_poly2.jpg", "title": "Disney's D23 2026: All the trailers, news, and reveals in one place", "source": "Polygon.com"}, {"index": 6, "img": "https://nintendoeverything.com/wp-content/uploads/Nintendo-Switch-list-all-GameShare-games-150x83.jpg", "title": "List of all Nintendo Switch 2 games that support GameShare", "source": "Nintendo Everything"}, {"index": 7, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/strongest-new-generation-pirates-in-one-piece.jpg", "title": "One Piece Officially Unveils The 3 Strongest New Gen Pirates", "source": "GameRant"}, {"index": 8, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/genshin-impact-ever-beneath-the-waves-quest-how-to-bring-the-wooden-cabin-to-shore.jpg", "title": "Bring The Wooden Cabin To Shore Guide In Ever Beneath the Waves Quest (Genshin Impact)", "source": "GameRant"}, {"index": 9, "img": "https://images.nintendolife.com/bbd2d2ee00812/small.jpg", "title": "Switch Online's DK Challenge Now Offering Physical 39-Card Set Reward", "source": "Nintendo Life | Latest Updates"}, {"index": 10, "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2026/08/how-to-get-megaphone-big-walk.jpg", "title": "How to Get a Megaphone in Big Walk (All Locations)", "source": "GameRant"}, {"index": 11, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/simpsons-1.jpg", "title": "The Best Simpsons Game May Be Returning, if You Believe Matt Groening", "source": "DualShockers"}, {"index": 12, "img": "https://cdn.mos.cms.futurecdn.net/2aY5xjJpmDEEYqWzPiuikd-1280-80.jpg", "title": "The Simpsons: Hit & Run \"is coming back in some form,\" says Matt Groening, but it looks like he wasn't supposed to", "source": "Latest from GamesRadar+"}, {"index": 13, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/bf958c5133b688b7309070eccf673d76cc9338111f4079af.avif", "title": "The Lord of the Rings: War in the North - Legacy Edition Review: An Exciting Remaster of a Fan-Favorite LOTR Game", "source": "DualShockers"}, {"index": 14, "img": "https://cdn.mos.cms.futurecdn.net/VHsCh9gyFNLCGkCCevaFXT-1280-80.jpg", "title": "Before Grand Theft Auto Online, GTA 4's multiplayer added 'glorious chaos' to the open world sandbox", "source": "PCGamer latest"}, {"index": 15, "img": "https://cdn.mos.cms.futurecdn.net/kexAqx6NbsD9h5HW7LMMun-1280-80.jpg", "title": "Lanterns creator says realism was \"totally the goal\" for the gritty new superhero drama because they're \"trying to tell a real story\"", "source": "Latest from GamesRadar+"}, {"index": 16, "img": "https://cdn.mos.cms.futurecdn.net/evkSfbeNLAwyb4KGHvCUJX-1280-80.jpg", "title": "D23 2026 live coverage \u2013All the Marvel and Star Wars announcements from the Disney Entertainment Showcase as it happens", "source": "Latest from GamesRadar+"}, {"index": 17, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/madden-nfl-27-review.jpg", "title": "Madden NFL 27 Review: One Step Forward, One Step Back", "source": "DualShockers"}, {"index": 18, "img": "https://cdn.mos.cms.futurecdn.net/XWS8doThLS4C3Mj2u6kyaR-1280-80.jpg", "title": "Disney says that Kingdom Hearts is now a 'billion dollar franchise'", "source": "PCGamer latest"}, {"index": 19, "img": "https://nintendoeverything.com/wp-content/uploads/Kirby-and-the-Forgotten-Land-Present-Codes-150x84.jpg", "title": "Kirby and the Forgotten Land list of all Present Codes", "source": "Nintendo Everything"}, {"index": 20, "img": "https://cdn.mos.cms.futurecdn.net/irKG7qMGWrhyJzfxSqeiXG-1280-80.jpg", "title": "Ahsoka season 2 D23 display teases more Clone Wars flashbacks and the return of Morai", "source": "Latest from GamesRadar+"}, {"index": 21, "img": "https://cdn.mos.cms.futurecdn.net/jnecqN6oBJxhXQcwrJFE3m-1280-80.jpg", "title": "The \"greatest speedrun accomplishment of all time\" is in sight as two legendary Super Mario Bros runners compete for a time that once seemed impossible", "source": "Latest from GamesRadar+"}, {"index": 22, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/games-like-animal-crossing.jpg", "title": "The 7 Most Perfect Cozy Games Like Animal Crossing", "source": "Polygon.com"}, {"index": 23, "img": "https://cdn.mos.cms.futurecdn.net/xto5MwozJtZMd7JE4Dv2uS-1280-80.jpg", "title": "Modding the Khajiit lands into Oblivion is still the cat's meow", "source": "PCGamer latest"}, {"index": 24, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/7a137fb8/duskfade2.jpg.webp", "title": "The Video Games And More You Should Play This Weekend \u2013 August 14, 2026", "source": "Game Informer"}, {"index": 25, "img": "https://cdn.mos.cms.futurecdn.net/Mfm9mvTkJtZyWkoMKJxXtX-1280-80.jpg", "title": "Here's a first for Call of Duty: The Modern Warfare 4 beta will have a campaign mission and Warzone stuff", "source": "PCGamer latest"}, {"index": 26, "img": "https://cdn.mos.cms.futurecdn.net/NMkcWYnUiW6Fr8h3UReQXR-1280-80.png", "title": "WoW's haunted: Players report that their disconnected friends' characters are starting to play the game on their own", "source": "PCGamer latest"}, {"index": 27, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/ss_27e5d2583f84da53f665674c47cbe6e72a9d6ecb-1920x1080.jpg", "title": "Cities: Skylines new replacement is about to become the best strategy game in years", "source": "Polygon.com"}, {"index": 28, "img": "https://nintendoeverything.com/wp-content/uploads/Disney-Dreamlight-Valley-Hannah-Montana-Lizzie-McGuire-collection-150x84.png", "title": "Disney Dreamlight Valley reveals The Keepsake Sea expansion, Hannah Montana & Lizzie McGuire collection, more", "source": "Nintendo Everything"}, {"index": 29, "img": "https://nintendoeverything.com/wp-content/uploads/Tower-Dominion-trailer-150x84.jpg", "title": "Tower Dominion launch trailer \u2013 roguelike tower defense game makes it to Nintendo Switch", "source": "Nintendo Everything"}, {"index": 30, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/mcdinvi_ec198.jpg", "title": "10 New Movies to Watch this Weekend on Netflix, Prime Video, and Peacock", "source": "Polygon.com"}, {"index": 31, "img": "", "title": "Fire Emblem: Fortune\u2019s Weave Cai Route Initial Characters Revealed", "source": "Siliconera"}, {"index": 32, "img": "", "title": "Best players for FC 26 Class on Grass Evolution", "source": "Destructoid"}, {"index": 33, "img": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/23224469/minish_cap.jpg", "title": "Beloved Legend of Zelda Games Get New Enhanced 3DS Ports", "source": "Polygon.com"}, {"index": 34, "img": "https://kotaku.com/app/uploads/2026/05/codmw4K_0001_MW4_MP_004_BRANDED-1280x720.jpg", "title": "Activision Really Wants You To Know Call Of Duty: Modern Warfare 4\u2032s Campaign Isn\u2019t A Horrible Mess Like BLOPS7", "source": "Kotaku"}, {"index": 35, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/08/nemu-news.jpg", "title": "Sony Pitches Stressed Out Bear as Its Own Hello Kitty", "source": "DualShockers"}, {"index": 36, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/eb5eea8f/m27_reveal_fl_cinematic_ontherun.jpg.webp", "title": "Madden NFL 27 Review - Third And Long", "source": "Game Informer"}, {"index": 37, "img": "", "title": "Disney touts \u2018core pillar\u2019 games like Kingdom Hearts and Marvel Rivals as crucial for its \u2018next chapter\u2019", "source": "Destructoid"}, {"index": 38, "img": "https://kotaku.com/app/uploads/2026/08/warpweek2002-best-12-games-1280x720.jpg", "title": "The 12 Best Video Games Of 2002", "source": "Kotaku"}, {"index": 39, "img": "", "title": "Monster Hunter Rathalos Nendoroid Tail Can Be Severed", "source": "Siliconera"}, {"index": 40, "img": "https://kotaku.com/app/uploads/2026/08/thimbleweed-1280x720.jpg", "title": "Monkey Island Creator\u2019s Next Game Is Funded By A Rich Guy Because He Was Tired Of Bad Publisher Deals", "source": "Kotaku"}, {"index": 41, "img": "", "title": "Best team to use in Path of Idle: Old Gods Rising", "source": "Destructoid"}, {"index": 42, "img": "", "title": "The world\u2019s most technical shooter is back from the dead, and it feels like a fever dream", "source": "Destructoid"}, {"index": 43, "img": "https://kotaku.com/app/uploads/2023/01/f838ffd9ad30b9ff65006420a015fea2-1280x720.jpg", "title": "A Surprising Overwatch Hero Wants Roadhog\u2019s Whole Hog", "source": "Kotaku"}, {"index": 44, "img": "https://www.gamespot.com/wp-content/uploads/2026/08/Rideshare-Stimulator.jpg?w=300", "title": "Rideshare Stimulator Outlines AI Usage After Contentious Exchange With Ex-Writer", "source": "GameSpot - All Content"}, {"index": 45, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/08/14/b07ea296/780_Lead.png.webp", "title": "Fire Emblem: Fortune's Weave Is Massive | TGIS", "source": "Game Informer"}, {"index": 46, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/AI-Hyperscaler-Fiber-Optic-Network-1-1456x818.jpg", "title": "As NVIDIA Adds 100 Dark Fiber Pairs, Some AI Hyperscalers Are Quietly Blocking Fiber Off-Ramps To Rural Towns, Suffocating A Key Benefit", "source": "Wccftech"}, {"index": 47, "img": "", "title": "FFXI Shadow Lord Shirt Returns in Shadow Lord\u2019s Dominion Event", "source": "Siliconera"}, {"index": 48, "img": "https://static0.dualshockersimages.com/wordpress/wp-content/uploads/2026/04/the-lego-movie-videogame.jpg", "title": "Someone Is Making a Disney LEGO Game, and It Isn't TT Games", "source": "DualShockers"}, {"index": 49, "img": "https://www.gamespot.com/wp-content/uploads/2026/08/MW4_KB_07_BRANDED.jpg?w=300", "title": "Here\u2019s A First Look At CoD: Warzone\u2019s New Zodiac Map For MW4", "source": "GameSpot - All Content"}, {"index": 50, "img": "https://images.purexbox.com/3e2c791b963ff/small.jpg", "title": "Here's What The Mafia: Definitive Edition Upgrade Looks Like On Xbox Series X|S", "source": "Pure Xbox | Latest Updates"}, {"index": 51, "img": "", "title": "Best players for FC 26 Passing Focus Evolution", "source": "Destructoid"}, {"index": 52, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2026/07/15/49b634e4/380_onimusha21.jpg.webp", "title": "Onimusha: Way Of The Sword Isn\u2019t A Horror Game, But There Are Definitely Moments Of Horror", "source": "Game Informer"}, {"index": 53, "img": "", "title": "Atelier Karia Survey Shows People Want to See Her Body Shape Change", "source": "Siliconera"}, {"index": 54, "img": "https://images.nintendolife.com/156329b2fb34a/small.jpg", "title": "Review: Punk Workshop FightStick G01 Arcade Stick For Switch 1 & 2 - Quite Simply One Of The Best", "source": "Nintendo Life | Latest Updates"}, {"index": 55, "img": "https://assetsio.gnwcdn.com/thewatcher.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "The Watcher is a creepy surveillance thriller with shiny Unreal Engine props - I just hope it's not as talkative as its trailer", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 56, "img": "https://www.gamespot.com/wp-content/uploads/2026/08/Halo-Campaign-Evolved-Will-Look-Better-Soon.jpg?w=300", "title": "Halo: Campaign Evolved Will Look Way Better Soon", "source": "GameSpot - All Content"}, {"index": 57, "img": "", "title": "New Frieren Gacha Features Figures of Her Sleeping", "source": "Siliconera"}, {"index": 58, "img": "https://images.purexbox.com/25acf4bef5252/small.jpg", "title": "Talking Point: Amid Rising Console Prices, What Would You Do If Your Xbox Broke Tomorrow?", "source": "Pure Xbox | Latest Updates"}, {"index": 59, "img": "https://images.nintendolife.com/36fce97a20179/small.jpg", "title": "Thimbleweed Park 2 Is Being Funded By A Sole 'Wealthy Outsider'", "source": "Nintendo Life | Latest Updates"}, {"index": 60, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/SanDisk-HBF-Cover-Image-1456x757.jpg", "title": "SanDisk Takes \u2018Finance Bros\u2019 For A Ride: Cherry-Picks BF16 Quantization And Outdated HBM Specs, While Completely Glossing Over HBF\u2019s Write Endurance Issues", "source": "Wccftech"}, {"index": 61, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/3408519540_a597fef749_k-500x500.jpg", "title": "Ars Live recap: How can we stop publishers from killing their own games?", "source": "Gaming - Ars Technica"}, {"index": 62, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/Intel-Raptor-Lake-CPUs-1456x971.jpg", "title": "Intel Wants To Keep Offering Raptor Lake CPUs Till Memory Prices Return To Normal", "source": "Wccftech"}, {"index": 63, "img": "https://images.purexbox.com/f31734f41f24c/small.jpg", "title": "Four New Indie Games Are Proving Highly Popular On Xbox Right Now", "source": "Pure Xbox | Latest Updates"}, {"index": 64, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/Snapdragon-8-Elite-Gen-6-Pro-5-1456x819.jpg", "title": "Snapdragon 8 Elite Gen 6 Pro Benchmark Results In AnTuTu Show A 20% Performance Improvement Over The Fastest Android Smartphone Currently In Existence", "source": "Wccftech"}, {"index": 65, "img": "https://assetsio.gnwcdn.com/rideshare-stimulator_SBvvZcB.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Rideshare Stimulator finally gets its genAI disclosure after much Saber-rattling, and it turns out the game also uses the tech for in-game music", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 66, "img": "https://cdn.wccftech.com/wp-content/uploads/2026/08/Core-Ultra-5-250K-Plus-motherboard-RAM-bundle-deal-1456x819.jpg", "title": "Micro Center Bundles Core Ultra 5 250K Plus With A Motherboard And 32 GB RAM, So You Can Save $270", "source": "Wccftech"}, {"index": 67, "img": "https://images.nintendolife.com/4dcba6e0ddaa2/small.jpg", "title": "Feature: One Year On, Is Anyone Still Playing Drag x Drive?", "source": "Nintendo Life | Latest Updates"}, {"index": 68, "img": "https://images.pushsquare.com/ee2ef4903485e/small.jpg", "title": "Call of Duty: Modern Warfare 4's PS5 Beta Includes Campaign Mission for the First Time", "source": "Push Square | Latest Updates"}, {"index": 69, "img": "https://images.purexbox.com/4291075c6b8e2/small.jpg", "title": "Cancelled First-Party Xbox Title Shows Up In A Random Fishing Game", "source": "Pure Xbox | Latest Updates"}, {"index": 70, "img": "https://assetsio.gnwcdn.com/specialeffect_boy_header.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "UK video game industry charity football match raises over \u00a363,000 for physically disabled gamers", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 71, "img": "https://assetsio.gnwcdn.com/south-of-midnight_FEBooHb.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Compulsion Games becomes publisher of South of Midnight on Steam, suggesting departure from Xbox amid major restructuring is now complete", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 72, "img": "https://assetsio.gnwcdn.com/pokopia-header.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Nintendo announces Pok\u00e9mon Pokopia has sold over 5m copies, meaning that roughly one in four Switch 2 users now owns the game", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 73, "img": "https://images.pushsquare.com/1d12ef136f3a2/small.jpg", "title": "Mafia Remake Joins The Old Country on PS5 in Full Series Collection with 60FPS, Visual Upgrades", "source": "Push Square | Latest Updates"}, {"index": 74, "img": "https://images.purexbox.com/260381e1bebd5/small.jpg", "title": "1986 Amiga Classic Gets Rebuilt With Two New Game Modes For Xbox Series X|S", "source": "Pure Xbox | Latest Updates"}, {"index": 75, "img": "https://www.gematsu.com/wp-content/uploads/2026/08/Honkai-Star-Rail_2024_08-14-24_025.jpg", "title": "Honkai: Star Rail version 4.5 update \u2018To Roll the Stars in Astropolis\u2019 launches August 26", "source": "Gematsu"}, {"index": 76, "img": "https://images.pushsquare.com/b3fa041a099eb/small.jpg", "title": "Halo: Campaign Evolved PS5 Update Lands Next Week with Tech Fixes", "source": "Push Square | Latest Updates"}, {"index": 77, "img": "https://assetsio.gnwcdn.com/london-royal-exchange-1600-(1).jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Have your say on the RPS Supporter program with this short, yet deeply opinion-absorbent survey", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 78, "img": "https://images.pushsquare.com/72a94fccd33b3/small.jpg", "title": "You'll Have to Wait Until 2028 to Play PS5's Shiniest, Jankiest Sci-Fi Adventure", "source": "Push Square | Latest Updates"}, {"index": 79, "img": "https://assetsio.gnwcdn.com/small-axe-studio-fifa-football-ea-sports-c.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "EA Sports FC might be getting a proper football game challenger, as 2K sets up new studio to make its \"next blockbuster sports franchise\"", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 80, "img": "https://images.pushsquare.com/d6c5dd8f2ccdd/small.jpg", "title": "Sonic Frontiers Surpasses 5 Million Copies Sold as Fans Await What Comes Next", "source": "Push Square | Latest Updates"}, {"index": 81, "img": "https://assetsio.gnwcdn.com/marvel-tokon-spiderman-web.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Marvel T\u014dkon: Fighting Souls review", "source": "Eurogamer.net Latest Articles Feed"}, {"index": 82, "img": "https://assetsio.gnwcdn.com/20260814110734_1.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "I love the Dark Soulful architecture of The Canon of Balls, a rolling open world game inspired by Sega, Fumito Ueda and Minecraft parkour", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 83, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb754f40282304078/6a7efb31e9f4a670eb7660af/Patch_65.png?width=720&quality=80&disable=upscale", "title": "Scabby versus Sharma, Twitch's GenAI admission, and Netflix shutters more studios - Patch Notes #65", "source": "gamedeveloper"}, {"index": 84, "img": "https://assetsio.gnwcdn.com/TODBRINGER.jpg?width=690&quality=85&format=jpg&auto=webp", "title": "Total War: Warhammer 3 is getting a big free vampiric update in September, alongside the epithet-stuffed Lords of the End Times DLC", "source": "Rock Paper Shotgun Latest Articles Feed"}, {"index": 85, "img": "https://www.gematsu.com/wp-content/uploads/2026/08/Pokopia-Sales_08-13-26.jpg", "title": "Pokemon Pokopia sales top five million", "source": "Gematsu"}, {"index": 86, "img": "https://gameinformer.com/sites/default/files/styles/body_default/public/2022/06/10/eab54e04/oxenfreeii-03-dialogue-bubbles.jpg.webp", "title": "Netflix Closes Two Gaming Studios, Including Oxenfree Developer Night School", "source": "Game Informer"}, {"index": 87, "img": "https://www.gematsu.com/wp-content/uploads/2026/08/Neo-Berlin-2087_08-13-26.jpg", "title": "NEO BERLIN 2087 launches in 2028", "source": "Gematsu"}, {"index": 88, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt903b5f171fb1de1f/6a7e23bc0dd8b201a332a34d/unhinged_key_art.webp?width=720&quality=80&disable=upscale", "title": "Netflix closing Oxenfree developer Night School Studio and Moonloot Games", "source": "gamedeveloper"}, {"index": 89, "img": "https://www.gematsu.com/wp-content/uploads/2026/08/Night-School-Moonloot_08-13-26.jpg", "title": "Netflix to close Night School Studios, Moonloot Games", "source": "Gematsu"}, {"index": 90, "img": "https://www.gematsu.com/wp-content/uploads/2026/08/High-On-Life-VR-Ann_08-13-26.jpg", "title": "High On Life VR announced for PS VR2, PC, and Quest", "source": "Gematsu"}, {"index": 91, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltb6373fc5e64be2aa/6a7df3b1d0a4172381d889a4/Small_Axe_Header.png?width=720&quality=80&disable=upscale", "title": "2K announces new Vancouver-based AAA studio led by EA veteran", "source": "gamedeveloper"}, {"index": 92, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt6196f7fab43d2439/6a7de0c1c0f2be8b3bdeec68/New_Project(21).png?width=720&quality=80&disable=upscale", "title": "Xsolla rolls out publishing tools to keep players 'engaged' after the first purchase", "source": "gamedeveloper"}, {"index": 93, "img": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/bltef068dcaa36e8c54/6a7c802c08084de2fdbbdab8/ss_24a50290ce0be6b7c830995615485ef9669d276a.1920x1080.jpg?width=720&quality=80&disable=upscale", "title": "Saber Interactive to add Rideshare 'Stimulator' AI disclosure after public controversy", "source": "gamedeveloper"}, {"index": 94, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/skg-500x500-1778860940.jpg", "title": "Live now: Ross Scott discusses the Stop Killing Games movement", "source": "Gaming - Ars Technica"}, {"index": 95, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/ss_03896903e32739497c26e1724dcbab75772970fe.1920x1080-500x500.jpg", "title": "Developer Cold Iron Studios shuts down cloud version of $60 game with no refunds", "source": "Gaming - Ars Technica"}, {"index": 96, "img": "https://cdn.arstechnica.net/wp-content/uploads/2024/12/powered-by-steam-os-500x500-1786375747.jpg", "title": "Valve slowly expands SteamOS support on non-Valve hardware", "source": "Gaming - Ars Technica"}, {"index": 97, "img": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/QUAKE_DLC_Xbox_TitledHero_1920x1080-02-JPG-9d514999ee7900fc9cfe-1600x900-1-500x500-1786124870.jpg", "title": "New official 30th anniversary Quake mission pack adds new maps and mechanics", "source": "Gaming - Ars Technica"}, {"index": 98, "img": "https://assetsio.gnwcdn.com/monopoly-go-simpsons-crossover-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Monopoly Go x The Simpsons crossover is almost here", "source": "VG247 Latest Articles Feed"}, {"index": 99, "img": "https://assetsio.gnwcdn.com/honkai-star-rail-version-4-3-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Honkai: Star Rail Version 4.3 will take us deeper into the World in Canvas and make Mortenax Blade playable", "source": "VG247 Latest Articles Feed"}, {"index": 100, "img": "https://www.gamespot.com/wp-content/uploads/2026/05/Honkai-Star-Rail-next-update-and-banners-version-4.5-header.jpg?w=300", "title": "Honkai Star Rail Next Update And Banners", "source": "GameSpot - All Content"}, {"index": 101, "img": "https://assetsio.gnwcdn.com/forza-horizon-6-keyart-1.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Forza Horizon 6 explodes on Steam even before it's officially out", "source": "VG247 Latest Articles Feed"}, {"index": 102, "img": "https://assetsio.gnwcdn.com/mystic-messenger%20(1).png?width=690&quality=85&format=jpg&auto=webp", "title": "Mystic Messenger's most loyal players are getting banned in droves for seemingly playing the game too much", "source": "VG247 Latest Articles Feed"}, {"index": 103, "img": "https://assetsio.gnwcdn.com/forza-horizon-6-screen-13.jpeg?width=690&quality=85&format=jpg&auto=webp", "title": "Forza Horizon 6 review - The driving game for everyone still can\u2019t seem to escape its car-collecting legacy", "source": "VG247 Latest Articles Feed"}, {"index": 104, "img": "https://www.gamespot.com/wp-content/uploads/original/1597/15971423/4573206-4711152756-42300.jpg?w=300", "title": "2026 Upcoming Games Release Schedule", "source": "GameSpot - All Content"}, {"index": 105, "img": "", "title": "A Two Parter! \u2013 The TouchArcade Show #613", "source": "TouchArcade"}, {"index": 106, "img": "", "title": "The Reports of Our Death Have Been Mildly Exaggerated \u2013 The TouchArcade Show #612", "source": "TouchArcade"}, {"index": 107, "img": "", "title": "Nintendo Switch Part Deux \u2013 The TouchArcade Show #611", "source": "TouchArcade"}, {"index": 108, "img": "", "title": "Where Have We Been!? \u2013 The TouchArcade Show #610", "source": "TouchArcade"}, {"index": 109, "img": "", "title": "Polar Express is SCARY \u2013 The TouchArcade Show #609", "source": "TouchArcade"}];
     let currentPhoto = 0;
 
     function openLightbox(index) {
